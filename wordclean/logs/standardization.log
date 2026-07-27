@@ -9,3 +9,38 @@
 2026-07-27 10:44:04.407 | INFO     | core.processor:process:118 - 开始解析Word
 2026-07-27 10:44:04.488 | INFO     | core.processor:process:202 - 文档标准化完成
 2026-07-27 10:44:04.489 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:32:40.293 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 11:32:40.294 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:32:40.294 | INFO     | core.processor:process:88 - 开始解压docx
+2026-07-27 11:32:40.318 | INFO     | core.processor:process:104 - 开始格式处理
+2026-07-27 11:32:40.329 | ERROR    | __main__:main:88 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,'str' object has no attribute 'numbering'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 95, in <module>
+    main()
+    └ <function main at 0x00000000012031A0>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 76, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x0000000003401B20>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E5C810>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 130, in process
+    self.numbering_apply.apply(
+    │    │               └ <function NumberingApply.apply at 0x0000000003401260>
+    │    └ <core.numbering.numbering_apply.NumberingApply object at 0x0000000003409890>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E5C810>
+
+  File "D:\效率提升自动化\wordclean\core\numbering\numbering_apply.py", line 15, in apply
+    document.numbering = numbering
+    │                    └ 'D:\\效率提升自动化\\wordclean\\template\\standard.docx'
+    └ 'temp\\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117'
+
+AttributeError: 'str' object has no attribute 'numbering'
+2026-07-27 11:34:05.600 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 11:34:05.600 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:34:05.600 | INFO     | core.processor:process:88 - 开始解压docx
+2026-07-27 11:34:05.618 | INFO     | core.processor:process:104 - 开始格式处理
+2026-07-27 11:34:05.626 | INFO     | core.processor:process:140 - 重新打包
+2026-07-27 11:34:05.648 | INFO     | core.processor:process:176 - 输出完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:34:05.648 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
