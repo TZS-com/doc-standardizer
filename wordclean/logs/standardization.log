@@ -1,0 +1,11 @@
+2026-07-27 10:39:46.135 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 10:39:46.135 | WARNING  | __main__:main:57 - 没有发现待处理Word文件
+2026-07-27 10:42:45.706 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 10:42:45.707 | WARNING  | __main__:main:57 - 没有发现待处理Word文件
+2026-07-27 10:43:40.528 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 10:43:40.528 | WARNING  | __main__:main:57 - 没有发现待处理Word文件
+2026-07-27 10:44:04.406 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 10:44:04.406 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 10:44:04.407 | INFO     | core.processor:process:118 - 开始解析Word
+2026-07-27 10:44:04.488 | INFO     | core.processor:process:202 - 文档标准化完成
+2026-07-27 10:44:04.489 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
