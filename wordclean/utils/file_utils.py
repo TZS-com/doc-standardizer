@@ -42,14 +42,17 @@ def copy_file(
 
 
 
-
 def get_files(
     directory,
     extension=".docx"
 ):
 
     """
-    获取指定目录文件
+    获取有效Word文件
+
+    自动过滤:
+    1. Word临时文件 ~$xxx.docx
+    2. 非docx文件
     """
 
 
@@ -58,28 +61,42 @@ def get_files(
 
 
 
-    for file in os.listdir(
-        directory
-    ):
+    for file in os.listdir(directory):
+
+
+        # 跳过Word临时文件
+
+        if file.startswith(
+            "~$"
+        ):
+
+            continue
 
 
 
-        if file.endswith(
+        # 后缀判断
+
+        if not file.lower().endswith(
             extension
         ):
 
+            continue
 
-            result.append(
-                os.path.join(
-                    directory,
-                    file
-                )
-            )
+
+
+        filepath = os.path.join(
+            directory,
+            file
+        )
+
+
+        result.append(
+            filepath
+        )
 
 
 
     return result
-
 
 
 

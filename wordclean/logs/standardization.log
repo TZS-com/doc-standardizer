@@ -44,3 +44,376 @@ AttributeError: 'str' object has no attribute 'numbering'
 2026-07-27 11:34:05.626 | INFO     | core.processor:process:140 - 重新打包
 2026-07-27 11:34:05.648 | INFO     | core.processor:process:176 - 输出完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
 2026-07-27 11:34:05.648 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.025 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 11:52:07.026 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.027 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.027 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 11:52:07.048 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 11:52:07.058 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 11:52:07.096 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 11:52:07.101 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 11:52:07.119 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.123 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.123 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.123 | INFO     | core.processor:process:133 - 开始处理:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:52:07.123 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 11:52:07.124 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+2026-07-27 11:52:07.124 | ERROR    | __main__:main:88 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 95, in <module>
+    main()
+    └ <function main at 0x00000000011A31A0>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 76, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x00000000035E77E0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 149, in process
+    self.unpacker.unpack(
+    │    │        └ <function DocxUnpacker.unpack at 0x0000000002E21B20>
+    │    └ <core.package.unpacker.DocxUnpacker object at 0x000000000123D9D0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\package\unpacker.py", line 55, in unpack
+    with zipfile.ZipFile(
+         │       └ <class 'zipfile.ZipFile'>
+         └ <module 'zipfile' from 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py'>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x00000000032CE160>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-07-27 11:55:48.185 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 11:55:48.185 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.185 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.185 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 11:55:48.200 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 11:55:48.203 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 11:55:48.239 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 11:55:48.243 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 11:55:48.261 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.264 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.264 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.265 | INFO     | core.processor:process:133 - 开始处理:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 11:55:48.265 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 11:55:48.265 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+2026-07-27 11:55:48.266 | ERROR    | __main__:main:88 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 95, in <module>
+    main()
+    └ <function main at 0x00000000011D31A0>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 76, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x00000000035E77E0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E2CB10>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 149, in process
+    self.unpacker.unpack(
+    │    │        └ <function DocxUnpacker.unpack at 0x0000000002E31B20>
+    │    └ <core.package.unpacker.DocxUnpacker object at 0x000000000126D9D0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E2CB10>
+
+  File "D:\效率提升自动化\wordclean\core\package\unpacker.py", line 55, in unpack
+    with zipfile.ZipFile(
+         │       └ <class 'zipfile.ZipFile'>
+         └ <module 'zipfile' from 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py'>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x0000000002ECE160>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-07-27 13:34:01.919 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 13:34:01.920 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:01.920 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:01.921 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 13:34:01.949 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 13:34:01.959 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 13:34:01.997 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 13:34:02.002 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 13:34:02.020 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:02.023 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:02.023 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:02.023 | INFO     | core.processor:process:133 - 开始处理:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:02.023 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 13:34:02.024 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+2026-07-27 13:34:02.024 | ERROR    | __main__:main:88 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 95, in <module>
+    main()
+    └ <function main at 0x00000000011B31A0>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 76, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x00000000035E77E0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 149, in process
+    self.unpacker.unpack(
+    │    │        └ <function DocxUnpacker.unpack at 0x0000000002E21B20>
+    │    └ <core.package.unpacker.DocxUnpacker object at 0x000000000124D9D0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\package\unpacker.py", line 55, in unpack
+    with zipfile.ZipFile(
+         │       └ <class 'zipfile.ZipFile'>
+         └ <module 'zipfile' from 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py'>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x00000000032CE160>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-07-27 13:34:09.269 | INFO     | __main__:main:40 - Word标准化程序启动
+2026-07-27 13:34:09.269 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.270 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.270 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 13:34:09.287 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 13:34:09.291 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 13:34:09.326 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 13:34:09.331 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 13:34:09.351 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.355 | INFO     | __main__:main:81 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.355 | INFO     | __main__:main:71 - 开始处理:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.355 | INFO     | core.processor:process:133 - 开始处理:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:34:09.355 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 13:34:09.356 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+2026-07-27 13:34:09.357 | ERROR    | __main__:main:88 - 处理失败:D:\效率提升自动化\wordclean\input\~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 95, in <module>
+    main()
+    └ <function main at 0x00000000011B31A0>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 76, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x00000000035E77E0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 149, in process
+    self.unpacker.unpack(
+    │    │        └ <function DocxUnpacker.unpack at 0x0000000002E21B20>
+    │    └ <core.package.unpacker.DocxUnpacker object at 0x000000000124D9D0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1CB10>
+
+  File "D:\效率提升自动化\wordclean\core\package\unpacker.py", line 55, in unpack
+    with zipfile.ZipFile(
+         │       └ <class 'zipfile.ZipFile'>
+         └ <module 'zipfile' from 'C:\\Users\\admin\\AppData\\Local\\Programs\\Python\\Python311\\Lib\\zipfile.py'>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x00000000032CE160>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-07-27 13:35:24.506 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 13:35:24.506 | WARNING  | __main__:get_word_files:31 - 跳过Word临时文件:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:35:24.506 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:35:24.506 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:35:24.507 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 13:35:24.522 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 13:35:24.526 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 13:35:24.561 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 13:35:24.565 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 13:35:24.585 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 13:35:24.588 | INFO     | __main__:main:97 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:04:21.337 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 14:04:21.338 | WARNING  | __main__:get_word_files:31 - 跳过Word临时文件:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:04:21.338 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:04:21.339 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:04:21.339 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 14:04:21.359 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 14:04:21.369 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 14:04:21.383 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\word\\styles.xml'
+2026-07-27 14:04:21.387 | ERROR    | __main__:main:104 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\word\\styles.xml'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 111, in <module>
+    main()
+    └ <function main at 0x0000000000F58900>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 92, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x0000000003402480>
+    └ <core.processor.DocumentProcessor object at 0x0000000002D75D50>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 190, in process
+    self.document_style_apply.apply(
+    │    │                    └ <function DocumentStyleApply.apply at 0x00000000034019E0>
+    │    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003692250>
+    └ <core.processor.DocumentProcessor object at 0x0000000002D75D50>
+
+  File "D:\效率提升自动化\wordclean\core\style\document_style_apply.py", line 78, in apply
+    self.style_mapper.load(
+    │    │            └ <function StyleMapper.load at 0x00000000034018A0>
+    │    └ <core.style.style_mapper.StyleMapper object at 0x0000000003691DD0>
+    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003692250>
+
+  File "D:\效率提升自动化\wordclean\core\style\style_mapper.py", line 65, in load
+    root = self.reader.read(
+           │    │      └ <function XMLReader.read at 0x0000000003400FE0>
+           │    └ <core.xml.xml_reader.XMLReader object at 0x0000000003691E10>
+           └ <core.style.style_mapper.StyleMapper object at 0x0000000003691DD0>
+
+  File "D:\效率提升自动化\wordclean\core\xml\xml_reader.py", line 30, in read
+    with open(
+
+FileNotFoundError: [Errno 2] No such file or directory: 'template/extracted\\word\\styles.xml'
+2026-07-27 14:07:55.277 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 14:07:55.278 | WARNING  | __main__:get_word_files:31 - 跳过Word临时文件:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:07:55.278 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:07:55.278 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:07:55.278 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 14:07:55.291 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 14:07:55.295 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 14:07:55.308 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:07:55.312 | ERROR    | __main__:main:104 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 111, in <module>
+    main()
+    └ <function main at 0x0000000000FB8900>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 92, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x0000000003402480>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 190, in process
+    self.document_style_apply.apply(
+    │    │                    └ <function DocumentStyleApply.apply at 0x00000000034019E0>
+    │    └ <core.style.document_style_apply.DocumentStyleApply object at 0x00000000036923D0>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\style\document_style_apply.py", line 78, in apply
+    self.style_mapper.load(
+    │    │            └ <function StyleMapper.load at 0x00000000034018A0>
+    │    └ <core.style.style_mapper.StyleMapper object at 0x0000000003691F50>
+    └ <core.style.document_style_apply.DocumentStyleApply object at 0x00000000036923D0>
+
+  File "D:\效率提升自动化\wordclean\core\style\style_mapper.py", line 63, in load
+    root = self.reader.read(
+           │    │      └ <function XMLReader.read at 0x0000000003400FE0>
+           │    └ <core.xml.xml_reader.XMLReader object at 0x0000000003691D50>
+           └ <core.style.style_mapper.StyleMapper object at 0x0000000003691F50>
+
+  File "D:\效率提升自动化\wordclean\core\xml\xml_reader.py", line 30, in read
+    with open(
+
+FileNotFoundError: [Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:51:58.218 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 14:51:58.220 | WARNING  | __main__:get_word_files:31 - 跳过Word临时文件:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:51:58.220 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:51:58.221 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:51:58.221 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 14:51:58.249 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 14:51:58.260 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 14:51:58.275 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:51:58.279 | ERROR    | __main__:main:104 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 111, in <module>
+    main()
+    └ <function main at 0x0000000000F88900>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 92, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x0000000003402480>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E4D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 190, in process
+    self.document_style_apply.apply(
+    │    │                    └ <function DocumentStyleApply.apply at 0x00000000034019E0>
+    │    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003691F10>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E4D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\style\document_style_apply.py", line 78, in apply
+    self.style_mapper.load(
+    │    │            └ <function StyleMapper.load at 0x00000000034018A0>
+    │    └ <core.style.style_mapper.StyleMapper object at 0x0000000003692050>
+    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003691F10>
+
+  File "D:\效率提升自动化\wordclean\core\style\style_mapper.py", line 63, in load
+    root = self.reader.read(
+           │    │      └ <function XMLReader.read at 0x0000000003400FE0>
+           │    └ <core.xml.xml_reader.XMLReader object at 0x0000000003691FD0>
+           └ <core.style.style_mapper.StyleMapper object at 0x0000000003692050>
+
+  File "D:\效率提升自动化\wordclean\core\xml\xml_reader.py", line 30, in read
+    with open(
+
+FileNotFoundError: [Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:55:18.748 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 14:55:18.748 | WARNING  | __main__:get_word_files:31 - 跳过Word临时文件:~$6R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:55:18.748 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:55:18.748 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:55:18.748 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 14:55:18.767 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 14:55:18.771 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 14:55:18.784 | ERROR    | core.processor:process:279 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:55:18.788 | ERROR    | __main__:main:104 - 处理失败:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx,[Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\wordclean\main.py", line 111, in <module>
+    main()
+    └ <function main at 0x0000000000FA8900>
+
+> File "D:\效率提升自动化\wordclean\main.py", line 92, in main
+    processor.process(
+    │         └ <function DocumentProcessor.process at 0x0000000003402480>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\processor.py", line 190, in process
+    self.document_style_apply.apply(
+    │    │                    └ <function DocumentStyleApply.apply at 0x00000000034019E0>
+    │    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003691F10>
+    └ <core.processor.DocumentProcessor object at 0x0000000002E1D6D0>
+
+  File "D:\效率提升自动化\wordclean\core\style\document_style_apply.py", line 78, in apply
+    self.style_mapper.load(
+    │    │            └ <function StyleMapper.load at 0x00000000034018A0>
+    │    └ <core.style.style_mapper.StyleMapper object at 0x0000000003692050>
+    └ <core.style.document_style_apply.DocumentStyleApply object at 0x0000000003691F10>
+
+  File "D:\效率提升自动化\wordclean\core\style\style_mapper.py", line 63, in load
+    root = self.reader.read(
+           │    │      └ <function XMLReader.read at 0x0000000003400FE0>
+           │    └ <core.xml.xml_reader.XMLReader object at 0x0000000003691FD0>
+           └ <core.style.style_mapper.StyleMapper object at 0x0000000003692050>
+
+  File "D:\效率提升自动化\wordclean\core\xml\xml_reader.py", line 30, in read
+    with open(
+
+FileNotFoundError: [Errno 2] No such file or directory: 'template/extracted\\styles.xml'
+2026-07-27 14:56:10.226 | INFO     | __main__:main:56 - Word标准化程序启动
+2026-07-27 14:56:10.227 | INFO     | __main__:main:87 - 开始处理:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:56:10.227 | INFO     | core.processor:process:133 - 开始处理:506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:56:10.227 | INFO     | core.processor:process:144 - 开始解压docx
+2026-07-27 14:56:10.239 | INFO     | core.processor:process:164 - 开始应用模板样式
+2026-07-27 14:56:10.243 | INFO     | core.processor:process:185 - 开始处理段落样式
+2026-07-27 14:56:10.291 | INFO     | core.processor:process:203 - 开始处理编号
+2026-07-27 14:56:10.296 | INFO     | core.processor:process:249 - 开始重新打包docx
+2026-07-27 14:56:10.317 | INFO     | core.processor:process:264 - 处理完成:D:\效率提升自动化\wordclean\output\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx
+2026-07-27 14:56:10.321 | INFO     | __main__:main:97 - 处理完成:D:\效率提升自动化\wordclean\input\506R113A-D酯化反应釜设计确认方案 - Draft01-迈本郝亚栋-20260117.docx

@@ -12,7 +12,11 @@ from utils.logger import logger
 
 def get_word_files():
     """
-    获取input目录中的Word文件
+    获取input目录中的有效Word文件
+
+    过滤:
+    1. Word临时文件(~$xxx.docx)
+    2. 非docx文件
 
     返回:
         list[str]
@@ -22,14 +26,26 @@ def get_word_files():
 
     for file in os.listdir(INPUT_DIR):
 
-        if file.lower().endswith(".docx"):
-
-            files.append(
-                os.path.join(
-                    INPUT_DIR,
-                    file
-                )
+        # 跳过Word临时文件
+        if file.startswith("~$"):
+            logger.warning(
+                f"跳过Word临时文件:{file}"
             )
+            continue
+
+
+        # 只处理docx
+        if not file.lower().endswith(".docx"):
+            continue
+
+
+        files.append(
+            os.path.join(
+                INPUT_DIR,
+                file
+            )
+        )
+
 
     return files
 
