@@ -9,7 +9,7 @@ from core.inspector import NumberingInspector
 def main():
 
 
-    input_file= "input/test.docx"
+    input_file= "core/style/input/source.docx"
 
 
     extractor=DocxXML(

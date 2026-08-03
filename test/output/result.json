@@ -1,1 +1,163 @@
-[]
+[
+    {
+        "index": 65,
+        "text": "目的\t5",
+        "number": "1",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 66,
+        "text": "范围\t5",
+        "number": "2",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 67,
+        "text": "系统描述\t5",
+        "number": "3",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 68,
+        "text": "职责\t5",
+        "number": "4",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 69,
+        "text": "缩略语\t6",
+        "number": "5",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 70,
+        "text": "参考文件\t6",
+        "number": "6",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 71,
+        "text": "法规\t6",
+        "number": "6.1",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 72,
+        "text": "指南\t6",
+        "number": "6.2",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 73,
+        "text": "文件\t6",
+        "number": "6.3",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 74,
+        "text": "验证/确认指导\t6",
+        "number": "7",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 75,
+        "text": "测试项结构\t7",
+        "number": "7.1",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 76,
+        "text": "执行说明\t7",
+        "number": "7.2",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 77,
+        "text": "确认计划\t7",
+        "number": "7.3",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 78,
+        "text": "验证/确认报告\t8",
+        "number": "7.4",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 79,
+        "text": "测试项列表\t8",
+        "number": "8",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 80,
+        "text": "先决条件确认\t9",
+        "number": "9",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 81,
+        "text": "签名&培训确认\t9",
+        "number": "9.1",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 82,
+        "text": "文件资料确认\t11",
+        "number": "9.2",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 83,
+        "text": "测试项目\t13",
+        "number": "10",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 84,
+        "text": "URS符合性确认\t13",
+        "number": "10.1",
+        "level": 2,
+        "source": "manual"
+    },
+    {
+        "index": 85,
+        "text": "附件清单\t16",
+        "number": "11",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 169,
+        "text": "年01月—2026年01月：确认方案的起草、审核、培训。",
+        "number": "2026",
+        "level": 1,
+        "source": "manual"
+    },
+    {
+        "index": 170,
+        "text": "年02月—2026年02月：根据确认计划进行确认方案的实施。",
+        "number": "2026",
+        "level": 1,
+        "source": "manual"
+    }
+]

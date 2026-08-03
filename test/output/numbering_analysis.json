@@ -1,91 +1,959 @@
 [
     {
-        "index": 0,
-        "text": "标题",
-        "numId": null,
-        "level": null,
-        "format": null
-    },
-    {
-        "index": 1,
-        "text": "吃饭",
-        "numId": "27",
-        "level": 0,
-        "format": "%1"
-    },
-    {
-        "index": 2,
-        "text": "睡觉",
-        "numId": "27",
-        "level": 1,
-        "format": "%1.%2"
-    },
-    {
-        "index": 3,
-        "text": "工作",
-        "numId": "27",
-        "level": 2,
-        "format": "%1.%2.%3"
-    },
-    {
-        "index": 4,
-        "text": "吃面",
-        "numId": "27",
-        "level": 0,
-        "format": "%1"
-    },
-    {
-        "index": 5,
-        "text": "吃饭",
-        "numId": "27",
-        "level": 1,
-        "format": "%1.%2"
-    },
-    {
-        "index": 6,
-        "text": "吃火锅",
-        "numId": "27",
-        "level": 2,
-        "format": "%1.%2.%3"
-    },
-    {
         "index": 7,
-        "text": "3 上厕所",
+        "text": "酯化反应釜设计确认方案",
         "numId": null,
         "level": null,
         "format": null
     },
     {
-        "index": 8,
-        "text": "听歌",
-        "numId": "29",
+        "index": 25,
+        "text": "方案批准:",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 26,
+        "text": "在下表中签名意味着各部门代表已对本方案所含信息的正确性进行了检查并批准可以用于执行。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 39,
+        "text": "版本修订索引:",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 64,
+        "text": "目   录",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 65,
+        "text": "1目的5",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 66,
+        "text": "2范围5",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 67,
+        "text": "3系统描述5",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 68,
+        "text": "4职责5",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 69,
+        "text": "5缩略语6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 70,
+        "text": "6参考文件6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 71,
+        "text": "6.1法规6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 72,
+        "text": "6.2指南6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 73,
+        "text": "6.3文件6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 74,
+        "text": "7验证/确认指导6",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 75,
+        "text": "7.1测试项结构7",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 76,
+        "text": "7.2执行说明7",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 77,
+        "text": "7.3确认计划7",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 78,
+        "text": "7.4验证/确认报告8",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 79,
+        "text": "8测试项列表8",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 80,
+        "text": "9先决条件确认9",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 81,
+        "text": "9.1签名&培训确认9",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 82,
+        "text": "9.2文件资料确认11",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 83,
+        "text": "10测试项目13",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 84,
+        "text": "10.1URS符合性确认13",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 85,
+        "text": "11附件清单16",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 90,
+        "text": "目的",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 91,
+        "text": "建立书面证明，以确保酯化反应釜的设计符合预期的规格并满足GMP的要求。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 92,
+        "text": "范围",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 93,
+        "text": "本文件的范围涉及到了酯化反应釜的设计确认。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 94,
+        "text": "系统描述",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 95,
+        "text": "酯化反应釜，位号：506R113A-D，数量：4台；用于提供酯化反应场所",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 96,
+        "text": "职责",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 97,
+        "text": "迈本石家庄医药科技有限公司",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 98,
+        "text": "确认与验证文件的编写、执行和总结",
+        "numId": "8",
         "level": 0,
-        "format": "%1"
+        "format": ""
     },
     {
-        "index": 9,
-        "text": "不吃饭",
-        "numId": "29",
-        "level": 1,
-        "format": "%1.%2"
-    },
-    {
-        "index": 10,
-        "text": "奔驰",
-        "numId": "29",
-        "level": 2,
-        "format": "%1.%2.%3"
-    },
-    {
-        "index": 11,
-        "text": "散步",
-        "numId": "29",
+        "index": 99,
+        "text": "参与确认与验证中偏差的调查",
+        "numId": "8",
         "level": 0,
-        "format": "%1"
+        "format": ""
     },
     {
-        "index": 12,
-        "text": "6 拍照",
+        "index": 100,
+        "text": "确保所有的确认和验证工作符合公司标准及GMP要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 101,
+        "text": "工程装备部",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 102,
+        "text": "审核相关的技术文件",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 103,
+        "text": "审核方案和报告",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 104,
+        "text": "协调其他服务商的配合执行",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 105,
+        "text": "参与确认与验证中偏差的调查",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 106,
+        "text": "生产部",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 107,
+        "text": "审核相关的技术要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 108,
+        "text": "审核方案和报告",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 109,
+        "text": "参与确认与验证中偏差的调查",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 110,
+        "text": "技术部",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 111,
+        "text": "审核相关的技术要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 112,
+        "text": "审核方案和报告",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 113,
+        "text": "参与确认与验证中偏差的调查",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 114,
+        "text": "质量保证部",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 115,
+        "text": "协调确认与验证工作",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 116,
+        "text": "审核确认与验证相关文件",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 117,
+        "text": "指导各验证组编写验证文件",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 118,
+        "text": "参与确认与验证中偏差的调查",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 119,
+        "text": "确保所有的确认和验证工作符合公司标准及GMP要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 120,
+        "text": "生产负责人",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 121,
+        "text": "审核和批准确认与验证相关文件",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 122,
+        "text": "确保所有的确认和验证工作符合公司标准及GMP要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 123,
+        "text": "质量负责人",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 124,
+        "text": "审核和批准确认与验证相关文件",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 125,
+        "text": "确保所有的确认和验证工作符合公司标准及GMP要求",
+        "numId": "8",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 126,
+        "text": "缩略语",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 127,
+        "text": "本方案中使用的缩略语如下：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 128,
+        "text": "参考文件",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 129,
+        "text": "法规",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 130,
+        "text": "中国，药品生产质量管理规范（2010年修订），2011年03月",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 131,
+        "text": "中国，药品生产质量管理规范（2010年修订），附录，确认与验证，2015年",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 132,
+        "text": "GAMP 5，自动化生产质量管理规范-药品生产自动化系统验证指南",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 133,
+        "text": "美国机械工程师协会生物加工设备2019",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 134,
+        "text": "指南",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 135,
+        "text": "ISPE基准指南，第5卷调试和确认，第一版，2001年",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 136,
+        "text": "ISPE基准指南，第5卷调试和确认，第二版，2019年",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 137,
+        "text": "ISPE良好实践指南，基于风险管理的调试和确认，2011年",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 138,
+        "text": "文件",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 139,
+        "text": "验证/确认指导",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 140,
+        "text": "测试项结构",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 141,
+        "text": "本方案中涉及的酯化反应釜确认测试项的结构如下：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 142,
+        "text": "测试项序号及名称",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 143,
+        "text": "目的",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 144,
+        "text": "程序",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 145,
+        "text": "接受标准",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 146,
+        "text": "结果",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 147,
+        "text": "备注",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 148,
+        "text": "最终测试结论",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 149,
+        "text": "执行人员及复核人员签字",
+        "numId": "10",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 150,
+        "text": "执行说明",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 151,
+        "text": "执行原则",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 152,
+        "text": "执行测试前，按照“9 先决条件确认”确保该方案执行的先决条件已满足。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 153,
+        "text": "按照方案中的测试程序执行每一个测试。在备注栏记录附加信息（附件、偏差或其它说明）。若所收集的数据或证据证明设备/系统的状态和/或运行符合方案中规定的要求可判定符合接受标准。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 154,
+        "text": "方案执行者应在测试记录表格中及确认人一栏中签名及日期。要求另一个资格人员复核数据并确定测试被完整的执行，在复核人一栏中签名及日期。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 155,
+        "text": "书写要求",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 156,
+        "text": "记录的填写、划改操作的管理要求参见SMP-WJ-004《记录管理规程》。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 157,
+        "text": "附件",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 158,
+        "text": "执行过程中所有对测试报告数据进行支持的各类文件，如：校准证书、各种图表、打印数据等文件应附到报告中，并在“11 附件清单”中记录所有附件。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 159,
+        "text": "对于每个附件，应包含如下信息：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 160,
+        "text": "附件编号，按流水号：附件 1，2，3……依次类推；",
+        "numId": "11",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 161,
+        "text": "附件名称；",
+        "numId": "11",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 162,
+        "text": "附件对应的方案章节，如11.5 XXX确认；",
+        "numId": "11",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 163,
+        "text": "附件每页的页码及总页码，如1/4, 2/4 等。",
+        "numId": "11",
+        "level": 0,
+        "format": ""
+    },
+    {
+        "index": 164,
+        "text": "偏差处理",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 165,
+        "text": "如设计确认执行过程中出现任何偏差之处，需按照《偏差管理规程》（编号：SMP-QA-001）处理。所有在设计确认执行过程中发现的偏差都将在设计确认报告中进行记录。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 166,
+        "text": "变更控制",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 167,
+        "text": "如设计确认中存在变更，需按照《变更管理规程》（编号：SMP-QA-002）处理，所有在设计确认执行过程中发生的变更都将在设计确认报告中进行记录。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 168,
+        "text": "确认计划",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 169,
+        "text": "2026年01月—2026年01月：确认方案的起草、审核、培训。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 170,
+        "text": "2026年02月—2026年02月：根据确认计划进行确认方案的实施。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 171,
+        "text": "通过风险评估的方法评估了部件的关键性，识别出潜在危险及其对产品的影响。详细信息参见部件关键性评估报告（报告名称：506车间酯化反应系统部件关键性评估报告，编号：XXX-XXXX-XXX；）。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 172,
+        "text": "所有直接影响系统将按照VMP（文件编号：VMP-25-001）所附的确认矩阵进行确认，本方案为酯化反应釜的设计确认，因此所有的设计确认活动将按照本方案执行并记录。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 173,
+        "text": "验证/确认报告",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 174,
+        "text": "执行本方案并完成了纠正措施之后，将生成一份最终的验证/确认报告。将编写对所获得结果的总结，并根据这些结果得出评价结论。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 175,
+        "text": "测试项列表",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 176,
+        "text": "本方案包括以下测试项目：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 179,
+        "text": "先决条件确认",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 180,
+        "text": "签名&培训确认",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 181,
+        "text": "为确定执行本方案的人员身份，应在执行前记录他们的名字、公司、部门/职务等信息，并由本人在签名处用蓝色签字笔书写本人姓名以及日期。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 182,
+        "text": "在方案实施前确保所有执行人员已经过培训，培训记录存在，培训效果合格。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 189,
+        "text": "注： 如需要，本页可复制。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 191,
+        "text": "备注",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 194,
+        "text": "符合性                                      □是     □否",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 195,
+        "text": "确认人/日期：                               复核人/日期：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 200,
+        "text": "文件资料确认",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 201,
+        "text": "在方案实施前确保文件齐全、已确认修订或批准。",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 234,
+        "text": "备注",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 237,
+        "text": "符合性                                               □是     □否",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 238,
+        "text": "确认人/日期：                                        复核人/日期：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 240,
+        "text": "测试项目",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 241,
+        "text": "URS符合性确认",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 262,
+        "text": "URS符合性确认表                                                  页数    of",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 264,
+        "text": "备注：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 265,
+        "text": "符合性                                           □是     □否",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 266,
+        "text": "确认人/日期：                                    复核人/日期：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 268,
+        "text": "附件清单",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 269,
+        "text": "页数    of",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 270,
+        "text": "注： 如需要，本页可复制",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 272,
+        "text": "备注：",
+        "numId": null,
+        "level": null,
+        "format": null
+    },
+    {
+        "index": 275,
+        "text": "确认人/日期：                              复核人/日期：",
         "numId": null,
         "level": null,
         "format": null
