@@ -1,15 +1,13 @@
 from pathlib import Path
-from zipfile import ZipFile, ZIP_DEFLATED
-import shutil
-import tempfile
 
-from core.style_cleaner import (
-    clean_document_style
-)
 
-from core.style_importer import (
-    replace_styles_xml
-)
+from analyzer.outline_reader import analyze_docx
+
+from mapper.heading_mapper import HeadingMapper
+
+from writer.style_applier import apply_styles
+
+from core.style_importer import replace_styles_xml
 
 
 
@@ -22,53 +20,7 @@ TEMPLATE_DIR = BASE_DIR / "template"
 
 OUTPUT_DIR = BASE_DIR / "output"
 
-
-
-def unzip_docx(
-        docx_file,
-        target_dir
-):
-
-    """
-    解压docx
-    """
-
-    with ZipFile(
-            docx_file,
-            "r"
-    ) as z:
-
-        z.extractall(
-            target_dir
-        )
-
-
-
-
-def zip_docx(
-        source_dir,
-        output_file
-):
-
-    """
-    重新压缩docx
-    """
-
-    with ZipFile(
-            output_file,
-            "w",
-            ZIP_DEFLATED
-    ) as z:
-
-
-        for file in source_dir.rglob("*"):
-
-            if file.is_file():
-
-                z.write(
-                    file,
-                    file.relative_to(source_dir)
-                )
+TEMP_DIR = BASE_DIR / "temp"
 
 
 
@@ -80,70 +32,87 @@ def process(
 ):
 
 
-    print("开始处理:", input_docx)
+    print(
+        "开始处理:",
+        input_docx
+    )
 
 
 
-    with tempfile.TemporaryDirectory() as temp:
+    middle_docx = (
+        TEMP_DIR
+        /
+        "middle.docx"
+    )
 
 
-        temp_dir = Path(temp)
-
-
-
-        # 1 解压原始docx
-
-        unzip_docx(
-            input_docx,
-            temp_dir
-        )
-
-
-        document_xml = (
-            temp_dir
-            /
-            "word"
-            /
-            "document.xml"
-        )
-
-
-        # 2 根据level调整样式
-
-        clean_document_style(
-            document_xml
-        )
+    TEMP_DIR.mkdir(
+        exist_ok=True
+    )
 
 
 
-        # 3 生成中间docx
+    # 1.分析文档目录结构
 
-        middle_docx = (
-            temp_dir
-            /
-            "middle.docx"
-        )
-
-
-        zip_docx(
-            temp_dir,
-            middle_docx
-        )
-
-
-
-        # 4 导入模板样式
-
-        replace_styles_xml(
-            middle_docx,
-            template_docx,
-            output_docx
-        )
+    outline = analyze_docx(
+        input_docx
+    )
 
 
     print(
-        "处理完成:",
+        "目录识别完成"
+    )
+
+
+
+    # 2.level映射样式
+
+    mapper = HeadingMapper(
+        BASE_DIR
+        /
+        "mapper"
+        /
+        "level_style_mapping.json"
+    )
+
+
+    outline = mapper.map_outline(
+        outline
+    )
+
+
+    print(
+        "样式映射完成"
+    )
+
+
+
+    # 3.根据level写入Heading样式
+
+    apply_styles(
+        input_docx,
+        middle_docx,
+        outline
+    )
+
+
+    print(
+        "标题样式写入完成"
+    )
+
+
+
+    # 4.导入模板样式
+
+    replace_styles_xml(
+        middle_docx,
+        template_docx,
         output_docx
+    )
+
+
+    print(
+        "模板样式替换完成"
     )
 
 
@@ -185,6 +154,7 @@ def main():
     )
 
 
+
     output_docx = (
         OUTPUT_DIR
         /
@@ -194,13 +164,9 @@ def main():
 
 
     process(
-
         input_docx,
-
         template_docx,
-
         output_docx
-
     )
 
 
