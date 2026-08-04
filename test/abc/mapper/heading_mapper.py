@@ -22,9 +22,9 @@ class HeadingMapper:
     def load_mapping(self):
 
         with open(
-            self.mapping_file,
-            "r",
-            encoding="utf-8"
+                self.mapping_file,
+                "r",
+                encoding="utf-8"
         ) as f:
 
             return json.load(f)
@@ -52,20 +52,34 @@ class HeadingMapper:
             outline
     ):
 
-        result=[]
+        result = []
 
 
         for item in outline:
 
 
-            level=item.get(
+            level = item.get(
                 "level"
             )
 
 
-            style=self.get_style(
+            # 非标题跳过
+            if level is None:
+
+                continue
+
+
+
+            style = self.get_style(
                 level
             )
+
+
+            # 没有对应样式也跳过
+            if style is None:
+
+                continue
+
 
 
             result.append({

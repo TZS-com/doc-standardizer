@@ -1,4 +1,7 @@
 from pathlib import Path
+from zipfile import ZipFile, ZIP_DEFLATED
+import shutil
+import tempfile
 
 
 from analyzer.outline_reader import analyze_docx
@@ -6,6 +9,8 @@ from analyzer.outline_reader import analyze_docx
 from mapper.heading_mapper import HeadingMapper
 
 from writer.style_applier import apply_styles
+
+from core.style_cleaner import clean_document_style
 
 from core.style_importer import replace_styles_xml
 
@@ -16,46 +21,122 @@ BASE_DIR = Path(__file__).parent
 
 INPUT_DIR = BASE_DIR / "input"
 
-TEMPLATE_DIR = BASE_DIR / "template"
-
 OUTPUT_DIR = BASE_DIR / "output"
 
-TEMP_DIR = BASE_DIR / "temp"
+TEMPLATE_DIR = BASE_DIR / "template"
+
+
+
+
+def unzip_docx(
+        docx_file,
+        target_dir
+):
+
+    with ZipFile(
+            docx_file,
+            "r"
+    ) as z:
+
+        z.extractall(
+            target_dir
+        )
+
+
+
+
+def zip_docx(
+        source_dir,
+        output_file
+):
+
+    with ZipFile(
+            output_file,
+            "w",
+            ZIP_DEFLATED
+    ) as z:
+
+        for file in source_dir.rglob("*"):
+
+            if file.is_file():
+
+                z.write(
+                    file,
+                    file.relative_to(source_dir)
+                )
+
+
+
+
+
+def clean_docx_style(
+        docx_file
+):
+
+    with tempfile.TemporaryDirectory() as temp:
+
+        temp_dir = Path(temp)
+
+
+        unzip_docx(
+            docx_file,
+            temp_dir
+        )
+
+
+        document_xml = (
+            temp_dir
+            /
+            "word"
+            /
+            "document.xml"
+        )
+
+
+        clean_document_style(
+            document_xml
+        )
+
+
+        zip_docx(
+            temp_dir,
+            docx_file
+        )
+
 
 
 
 
 def process(
-        input_docx,
+        source_docx,
         template_docx,
         output_docx
 ):
 
 
-    print(
-        "开始处理:",
-        input_docx
-    )
+    print("==============================")
+    print("开始处理")
+    print("输入文件:", source_docx)
+    print("==============================")
 
 
-
-    middle_docx = (
-        TEMP_DIR
+    temp_docx = (
+        BASE_DIR
         /
-        "middle.docx"
-    )
-
-
-    TEMP_DIR.mkdir(
-        exist_ok=True
+        "temp_clean.docx"
     )
 
 
 
-    # 1.分析文档目录结构
+    # =========================
+    # 1.读取原始目录结构
+    # =========================
+
+    print("\n[1] 开始分析原始文档目录")
+
 
     outline = analyze_docx(
-        input_docx
+        source_docx
     )
 
 
@@ -64,8 +145,24 @@ def process(
     )
 
 
+    print(
+        "识别数量:",
+        len(outline)
+    )
 
-    # 2.level映射样式
+
+    for item in outline[:10]:
+
+        print(item)
+
+
+
+    # =========================
+    # 2.映射标题样式
+    # =========================
+
+    print("\n[2] 开始样式映射")
+
 
     mapper = HeadingMapper(
         BASE_DIR
@@ -82,38 +179,106 @@ def process(
 
 
     print(
-        "样式映射完成"
+        "映射完成"
+    )
+
+
+    print(
+        "标题数量:",
+        len(outline)
+    )
+
+
+    for item in outline[:10]:
+
+        print(item)
+
+
+
+    # =========================
+    # 3.复制原始文件
+    # =========================
+
+    print("\n[3] 复制原始文档")
+
+
+    shutil.copy(
+        source_docx,
+        temp_docx
+    )
+
+
+    print(
+        "复制完成:",
+        temp_docx
     )
 
 
 
-    # 3.根据level写入Heading样式
+    # =========================
+    # 4.提前导入模板样式
+    # =========================
+
+    print("\n[4] 导入模板样式")
+
+
+    replace_styles_xml(
+        temp_docx,
+        template_docx,
+        temp_docx
+    )
+
+
+    print(
+        "模板样式导入完成"
+    )
+
+
+
+    # =========================
+    # 5.清洗全文格式
+    # =========================
+
+    print("\n[5] 开始清洗全文格式")
+
+
+    clean_docx_style(
+        temp_docx
+    )
+
+
+    print(
+        "正文格式清洗完成"
+    )
+
+
+
+    # =========================
+    # 6.恢复标题样式
+    # =========================
+
+    print("\n[6] 开始恢复标题样式")
+
 
     apply_styles(
-        input_docx,
-        middle_docx,
+        temp_docx,
+        output_docx,
         outline
     )
 
 
     print(
-        "标题样式写入完成"
+        "标题样式恢复完成"
     )
 
 
 
-    # 4.导入模板样式
-
-    replace_styles_xml(
-        middle_docx,
-        template_docx,
-        output_docx
-    )
+    print("\n==============================")
+    print("全部处理完成")
+    print("输出:", output_docx)
+    print("==============================")
 
 
-    print(
-        "模板样式替换完成"
-    )
 
 
 
@@ -143,7 +308,7 @@ def main():
 
 
 
-    input_docx = files[0]
+    source_docx = files[0]
 
 
 
@@ -164,7 +329,7 @@ def main():
 
 
     process(
-        input_docx,
+        source_docx,
         template_docx,
         output_docx
     )

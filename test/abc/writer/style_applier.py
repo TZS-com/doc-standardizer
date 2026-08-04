@@ -24,6 +24,8 @@ def apply_styles(
 ):
 
 
+
+
     with ZipFile(docx,"r") as zin:
 
         files={
@@ -55,6 +57,18 @@ def apply_styles(
 
 
         p=paragraphs[index]
+
+        if index >= len(paragraphs):
+            print(
+                "索引超出范围:",
+                index,
+                "总段落:",
+                len(paragraphs)
+            )
+
+            continue
+
+        p = paragraphs[index]
 
 
         pPr=p.find(
@@ -94,6 +108,31 @@ def apply_styles(
             item["style"]
         )
 
+        print(
+            "写入样式完成:",
+            item["index"],
+            item["style"]
+        )
+
+        outlineLvl = etree.SubElement(
+            pPr,
+            "{%s}outlineLvl" % NS["w"]
+        )
+
+        outlineLvl.set(
+            "{%s}val" % NS["w"],
+            str(item["level"])
+        )
+
+        print(
+            "处理段落:",
+            item["index"],
+            "|",
+            item["text"][:30],
+            "|",
+            item["style"]
+        )
+
 
 
     files["word/document.xml"]=etree.tostring(
@@ -116,3 +155,4 @@ def apply_styles(
                 name,
                 data
             )
+
