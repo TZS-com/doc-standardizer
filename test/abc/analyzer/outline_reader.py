@@ -1,7 +1,7 @@
 import re
 
 NUMBER_PATTERN = re.compile(
-    r"^\s*\d+(?:\.\d+)*[\.、．]"
+     r"^\s*\d+(?:\.\d+)+[\.、．]?\s+"
 )
 
 from zipfile import ZipFile
@@ -380,7 +380,7 @@ def detect_document_mode(paragraphs):
 
     manual_count = 0
 
-    auto_count = 0
+    navigation_count = 0
 
 
     for p in paragraphs:
@@ -390,65 +390,114 @@ def detect_document_mode(paragraphs):
 
 
         if not text:
+
             continue
 
 
-        # 手动编号
+
+        # ==================================
+        # 模式1：
+        # 标题文字自身带编号
+        #
+        # 示例：
+        # 1 项目背景
+        # 1.1 系统架构
+        # 1.1.1 数据库设计
+        #
+        # 只认文字内容
+        # 不看Word编号属性
+        # ==================================
 
         if NUMBER_PATTERN.match(text):
 
             manual_count += 1
 
             print(
-                "手动编号:",
+                "标题编号:",
                 text
             )
 
 
-        # 自动编号
 
-        num_id, ilvl = get_number_info(p)
+        # ==================================
+        # 模式2：
+        # Word大纲/导航结构
+        #
+        # 示例：
+        # 项目背景   Heading1
+        # 系统架构   Heading2
+        #
+        # 不关心有没有自动编号
+        # 只看标题样式
+        # ==================================
 
-
-        if num_id is not None:
-
-            auto_count += 1
-
-            print(
-                "自动编号:",
-                text,
-                "numId:",
-                num_id,
-                "level:",
-                ilvl
-            )
+        sid = get_style_id(p)
 
 
+        if sid:
+
+            sid_lower = sid.lower()
+
+
+            if (
+                sid_lower.startswith("heading")
+                or sid_lower.startswith("标题")
+            ):
+
+                navigation_count += 1
+
+
+                print(
+                    "导航标题:",
+                    text,
+                    "style:",
+                    sid
+                )
+
+
+
+    print("======================")
 
     print(
-        "手动编号数量:",
+        "标题编号数量:",
         manual_count
     )
 
 
     print(
-        "自动编号数量:",
-        auto_count
+        "导航标题数量:",
+        navigation_count
     )
 
+    print("======================")
+
+
+
+    # ==================================
+    # 判断模式
+    # ==================================
+
+
+    # 优先判断文字编号模式
 
     if manual_count >= 3:
 
         return "number"
 
 
-    if auto_count >= 3:
 
-        return "number"
+    # 判断Word导航结构模式
 
+    if navigation_count >= 3:
+
+        return "navigation"
+
+
+
+    # 默认按导航模式处理
+    # 后续可以继续通过style_map判断
 
     return "navigation"
-
 if __name__=="__main__":
 
 

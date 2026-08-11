@@ -1,0 +1,3410 @@
+2026-08-10 13:49:05.749 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 13:50:35.303 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 13:52:49.780 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 13:52:49.799 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:13:44.391 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:13:44.405 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:16:00.059 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:16:00.072 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:16:01.410 | INFO     | core.sync_service:run:108 - 迈本石家庄招行 收入:1 支出:3
+2026-08-10 14:16:01.411 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:16:02.187 | INFO     | core.sync_service:run:108 - 迈本交行 收入:1 支出:3
+2026-08-10 14:16:02.187 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:16:02.509 | INFO     | core.sync_service:run:108 - 迈本石家庄承兑 收入:2 支出:3
+2026-08-10 14:16:02.509 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 14:21:22.024 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:21:22.033 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:21:36.090 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:21:36.101 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:21:37.619 | INFO     | core.sync_service:run:108 - 迈本石家庄招行 收入:1 支出:3
+2026-08-10 14:21:37.619 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:21:39.164 | INFO     | core.sync_service:run:108 - 迈本交行 收入:1 支出:3
+2026-08-10 14:21:39.165 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:21:40.698 | INFO     | core.sync_service:run:108 - 迈本石家庄承兑 收入:2 支出:3
+2026-08-10 14:21:40.698 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 14:23:25.202 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:23:25.213 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:23:27.518 | INFO     | core.sync_service:run:108 - 迈本石家庄招行 收入:1 支出:3
+2026-08-10 14:23:27.519 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:23:30.043 | INFO     | core.sync_service:run:108 - 迈本交行 收入:1 支出:3
+2026-08-10 14:23:30.044 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:23:32.685 | INFO     | core.sync_service:run:108 - 迈本石家庄承兑 收入:2 支出:3
+2026-08-10 14:23:32.686 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 14:24:53.167 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:24:53.176 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:24:55.533 | INFO     | core.sync_service:run:108 - 迈本石家庄招行 收入:1 支出:3
+2026-08-10 14:24:55.534 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:24:58.067 | INFO     | core.sync_service:run:108 - 迈本交行 收入:1 支出:3
+2026-08-10 14:24:58.068 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:25:00.672 | INFO     | core.sync_service:run:108 - 迈本石家庄承兑 收入:2 支出:3
+2026-08-10 14:25:00.673 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 14:28:30.702 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:28:30.778 | INFO     | core.sync_service:run:59 - 处理:各账户余额表
+2026-08-10 14:39:03.497 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:39:03.583 | INFO     | core.sync_service:run:59 - 处理:各账户余额表
+2026-08-10 14:39:03.644 | WARNING  | core.sync_service:run:69 - 各账户余额表非日记账格式，跳过
+2026-08-10 14:39:03.644 | INFO     | core.sync_service:run:59 - 处理:承兑余额表
+2026-08-10 14:39:03.729 | WARNING  | core.sync_service:run:69 - 承兑余额表非日记账格式，跳过
+2026-08-10 14:39:03.730 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:39:03.914 | WARNING  | core.sync_service:run:69 - 迈本石家庄招行非日记账格式，跳过
+2026-08-10 14:39:03.915 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:39:04.028 | WARNING  | core.sync_service:run:69 - 迈本交行非日记账格式，跳过
+2026-08-10 14:39:04.028 | INFO     | core.sync_service:run:59 - 处理:迈本建行
+2026-08-10 14:39:04.143 | WARNING  | core.sync_service:run:69 - 迈本建行非日记账格式，跳过
+2026-08-10 14:39:04.143 | INFO     | core.sync_service:run:59 - 处理:迈本建行外外币户
+2026-08-10 14:39:04.222 | WARNING  | core.sync_service:run:69 - 迈本建行外外币户非日记账格式，跳过
+2026-08-10 14:39:04.223 | INFO     | core.sync_service:run:59 - 处理:迈本招行保证金户
+2026-08-10 14:39:04.340 | WARNING  | core.sync_service:run:69 - 迈本招行保证金户非日记账格式，跳过
+2026-08-10 14:39:04.341 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:39:04.446 | WARNING  | core.sync_service:run:69 - 迈本石家庄承兑非日记账格式，跳过
+2026-08-10 14:39:04.447 | INFO     | core.sync_service:run:59 - 处理:迈本仪器（交行）
+2026-08-10 14:42:20.799 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:42:20.879 | INFO     | core.sync_service:run:59 - 处理:各账户余额表
+2026-08-10 14:42:20.943 | WARNING  | core.sync_service:run:69 - 各账户余额表非日记账格式，跳过
+2026-08-10 14:42:20.944 | INFO     | core.sync_service:run:59 - 处理:承兑余额表
+2026-08-10 14:42:21.025 | WARNING  | core.sync_service:run:69 - 承兑余额表非日记账格式，跳过
+2026-08-10 14:42:21.026 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:42:21.188 | WARNING  | core.sync_service:run:69 - 迈本石家庄招行非日记账格式，跳过
+2026-08-10 14:42:21.188 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:42:21.271 | WARNING  | core.sync_service:run:69 - 迈本交行非日记账格式，跳过
+2026-08-10 14:42:21.271 | INFO     | core.sync_service:run:59 - 处理:迈本建行
+2026-08-10 14:42:21.375 | WARNING  | core.sync_service:run:69 - 迈本建行非日记账格式，跳过
+2026-08-10 14:42:21.375 | INFO     | core.sync_service:run:59 - 处理:迈本建行外外币户
+2026-08-10 14:42:21.454 | WARNING  | core.sync_service:run:69 - 迈本建行外外币户非日记账格式，跳过
+2026-08-10 14:42:21.454 | INFO     | core.sync_service:run:59 - 处理:迈本招行保证金户
+2026-08-10 14:42:21.567 | WARNING  | core.sync_service:run:69 - 迈本招行保证金户非日记账格式，跳过
+2026-08-10 14:42:21.567 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄承兑
+2026-08-10 14:42:21.688 | WARNING  | core.sync_service:run:69 - 迈本石家庄承兑非日记账格式，跳过
+2026-08-10 14:42:21.688 | INFO     | core.sync_service:run:59 - 处理:迈本仪器（交行）
+2026-08-10 14:43:21.260 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:43:21.343 | INFO     | core.sync_service:run:59 - 处理:各账户余额表
+2026-08-10 14:43:21.403 | WARNING  | core.sync_service:run:69 - 各账户余额表非日记账格式，跳过
+2026-08-10 14:43:21.403 | INFO     | core.sync_service:run:59 - 处理:承兑余额表
+2026-08-10 14:43:21.490 | WARNING  | core.sync_service:run:69 - 承兑余额表非日记账格式，跳过
+2026-08-10 14:43:21.490 | INFO     | core.sync_service:run:59 - 处理:迈本石家庄招行
+2026-08-10 14:43:23.989 | INFO     | core.sync_service:run:114 - 迈本石家庄招行 收入:1 支出:3
+2026-08-10 14:43:23.989 | INFO     | core.sync_service:run:59 - 处理:迈本交行
+2026-08-10 14:43:26.602 | INFO     | core.sync_service:run:114 - 迈本交行 收入:1 支出:3
+2026-08-10 14:43:26.602 | INFO     | core.sync_service:run:59 - 处理:迈本建行
+2026-08-10 14:58:15.790 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 14:58:15.875 | INFO     | core.sync_service:run:65 - 发现日记账Sheet数量:40
+2026-08-10 14:58:15.876 | INFO     | core.sync_service:run:74 - 开始处理:各账户余额表
+2026-08-10 14:58:15.939 | WARNING  | core.sync_service:run:96 - 各账户余额表不是有效日记账格式，跳过
+2026-08-10 14:58:15.940 | INFO     | core.sync_service:run:74 - 开始处理:承兑余额表
+2026-08-10 14:58:16.030 | WARNING  | core.sync_service:run:96 - 承兑余额表不是有效日记账格式，跳过
+2026-08-10 14:58:16.031 | INFO     | core.sync_service:run:74 - 开始处理:迈本石家庄招行
+2026-08-10 14:58:17.341 | INFO     | core.sync_service:run:175 - 迈本石家庄招行收入写入收入数据:1条
+2026-08-10 14:58:18.663 | INFO     | core.sync_service:run:218 - 迈本石家庄招行支出写入支出数据:3条
+2026-08-10 14:58:18.664 | INFO     | core.sync_service:run:74 - 开始处理:迈本交行
+2026-08-10 14:58:20.035 | INFO     | core.sync_service:run:175 - 迈本交行收入写入收入数据:1条
+2026-08-10 14:58:21.297 | INFO     | core.sync_service:run:218 - 迈本交行支出写入支出数据:3条
+2026-08-10 14:58:21.297 | INFO     | core.sync_service:run:74 - 开始处理:迈本建行
+2026-08-10 14:58:21.851 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本建行收入
+2026-08-10 14:58:22.262 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本建行支出
+2026-08-10 14:58:22.262 | INFO     | core.sync_service:run:74 - 开始处理:迈本建行外外币户
+2026-08-10 14:58:22.761 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本建行外外币户收入
+2026-08-10 14:58:23.164 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本建行外外币户支出
+2026-08-10 14:58:23.164 | INFO     | core.sync_service:run:74 - 开始处理:迈本招行保证金户
+2026-08-10 14:58:23.683 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本招行保证金户收入
+2026-08-10 14:58:24.057 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本招行保证金户支出
+2026-08-10 14:58:24.057 | INFO     | core.sync_service:run:74 - 开始处理:迈本石家庄承兑
+2026-08-10 14:58:25.386 | INFO     | core.sync_service:run:175 - 迈本石家庄承兑收入写入收入数据:1条
+2026-08-10 14:58:26.650 | INFO     | core.sync_service:run:218 - 迈本石家庄承兑支出写入支出数据:3条
+2026-08-10 14:58:26.650 | INFO     | core.sync_service:run:74 - 开始处理:迈本仪器（交行）
+2026-08-10 14:58:27.224 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本仪器（交行）收入
+2026-08-10 14:58:27.641 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本仪器（交行）支出
+2026-08-10 14:58:27.641 | INFO     | core.sync_service:run:74 - 开始处理:仪器交行（数币户）
+2026-08-10 14:58:27.730 | INFO     | core.sync_service:run:74 - 开始处理:仪器承兑
+2026-08-10 14:58:28.236 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:仪器承兑收入
+2026-08-10 14:58:28.644 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:仪器承兑支出
+2026-08-10 14:58:28.644 | INFO     | core.sync_service:run:74 - 开始处理:北威
+2026-08-10 14:58:28.732 | WARNING  | core.sync_service:run:96 - 北威不是有效日记账格式，跳过
+2026-08-10 14:58:28.733 | INFO     | core.sync_service:run:74 - 开始处理:迈本成都
+2026-08-10 14:58:29.256 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本成都收入
+2026-08-10 14:58:29.662 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本成都支出
+2026-08-10 14:58:29.662 | INFO     | core.sync_service:run:74 - 开始处理:迈本成都承兑
+2026-08-10 14:58:30.156 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本成都承兑收入
+2026-08-10 14:58:30.557 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本成都承兑支出
+2026-08-10 14:58:30.557 | INFO     | core.sync_service:run:74 - 开始处理:迈本沈阳
+2026-08-10 14:58:31.075 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本沈阳收入
+2026-08-10 14:58:31.443 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本沈阳支出
+2026-08-10 14:58:31.443 | INFO     | core.sync_service:run:74 - 开始处理:迈本沈阳承兑
+2026-08-10 14:58:31.950 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本沈阳承兑收入
+2026-08-10 14:58:32.355 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本沈阳承兑支出
+2026-08-10 14:58:32.355 | INFO     | core.sync_service:run:74 - 开始处理:迈本苏州
+2026-08-10 14:58:32.843 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本苏州收入
+2026-08-10 14:58:33.229 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本苏州支出
+2026-08-10 14:58:33.229 | INFO     | core.sync_service:run:74 - 开始处理:迈本苏州承兑
+2026-08-10 14:58:33.730 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:迈本苏州承兑收入
+2026-08-10 14:58:34.151 | WARNING  | core.sync_service:run:208 - 支出账不存在Sheet:迈本苏州承兑支出
+2026-08-10 14:58:34.151 | INFO     | core.sync_service:run:74 - 开始处理:长春奥强
+2026-08-10 14:58:34.274 | INFO     | core.sync_service:run:74 - 开始处理:苏州澳强
+2026-08-10 14:58:34.462 | INFO     | core.sync_service:run:74 - 开始处理:天津富麦
+2026-08-10 14:58:34.554 | INFO     | core.sync_service:run:74 - 开始处理:迪青
+2026-08-10 14:58:34.668 | INFO     | core.sync_service:run:74 - 开始处理:义岭
+2026-08-10 14:58:34.777 | INFO     | core.sync_service:run:74 - 开始处理:沛能
+2026-08-10 14:58:34.854 | INFO     | core.sync_service:run:74 - 开始处理:现金
+2026-08-10 14:58:34.968 | INFO     | core.sync_service:run:74 - 开始处理:康丽进（银行）
+2026-08-10 14:58:35.074 | INFO     | core.sync_service:run:74 - 开始处理:吴利君
+2026-08-10 14:58:35.154 | INFO     | core.sync_service:run:74 - 开始处理:马蕾
+2026-08-10 14:58:35.265 | INFO     | core.sync_service:run:74 - 开始处理:王建肖
+2026-08-10 14:58:35.372 | INFO     | core.sync_service:run:74 - 开始处理:白秀敏
+2026-08-10 14:58:35.452 | INFO     | core.sync_service:run:74 - 开始处理:雷朝霞
+2026-08-10 14:58:35.563 | INFO     | core.sync_service:run:74 - 开始处理:李冬日
+2026-08-10 14:58:35.670 | INFO     | core.sync_service:run:74 - 开始处理:佟丽
+2026-08-10 14:58:35.751 | INFO     | core.sync_service:run:74 - 开始处理:雷杰
+2026-08-10 14:58:35.862 | INFO     | core.sync_service:run:74 - 开始处理:晟才
+2026-08-10 14:58:35.972 | INFO     | core.sync_service:run:74 - 开始处理:马义岭
+2026-08-10 14:58:36.052 | INFO     | core.sync_service:run:74 - 开始处理:刘勇
+2026-08-10 14:58:36.163 | INFO     | core.sync_service:run:74 - 开始处理:王茜
+2026-08-10 14:58:36.270 | INFO     | core.sync_service:run:74 - 开始处理:李晓东
+2026-08-10 14:58:36.703 | WARNING  | core.sync_service:run:167 - 收入账不存在Sheet:李晓东收入
+2026-08-10 14:58:36.703 | INFO     | core.sync_service:run:74 - 开始处理:刘硕
+2026-08-10 14:58:36.844 | INFO     | core.sync_service:run:242 - 全部同步完成
+2026-08-10 14:58:36.844 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 15:05:49.028 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:05:49.106 | INFO     | core.sync_service:run:65 - 发现日记账Sheet数量:40
+2026-08-10 15:05:49.106 | INFO     | core.sync_service:run:74 - 开始处理:各账户余额表
+2026-08-10 15:05:49.168 | WARNING  | core.sync_service:run:96 - 各账户余额表不是有效日记账格式，跳过
+2026-08-10 15:05:49.168 | INFO     | core.sync_service:run:74 - 开始处理:承兑余额表
+2026-08-10 15:05:49.248 | WARNING  | core.sync_service:run:96 - 承兑余额表不是有效日记账格式，跳过
+2026-08-10 15:05:49.248 | INFO     | core.sync_service:run:74 - 开始处理:迈本石家庄招行
+2026-08-10 15:09:28.323 | INFO     | core.sync_service:run:175 - 迈本石家庄招行收入写入收入数据:1条
+2026-08-10 15:12:46.693 | INFO     | core.sync_service:run:218 - 迈本石家庄招行支出写入支出数据:3条
+2026-08-10 15:12:46.697 | INFO     | core.sync_service:run:74 - 开始处理:迈本交行
+2026-08-10 15:21:00.424 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:21:00.511 | INFO     | core.sync_service:run:65 - 发现日记账Sheet数量:40
+2026-08-10 15:21:00.511 | INFO     | core.sync_service:run:74 - 开始处理:各账户余额表
+2026-08-10 15:21:00.575 | WARNING  | core.sync_service:run:96 - 各账户余额表不是有效日记账格式，跳过
+2026-08-10 15:21:00.575 | INFO     | core.sync_service:run:74 - 开始处理:承兑余额表
+2026-08-10 15:21:00.655 | WARNING  | core.sync_service:run:96 - 承兑余额表不是有效日记账格式，跳过
+2026-08-10 15:21:00.655 | INFO     | core.sync_service:run:74 - 开始处理:迈本石家庄招行
+2026-08-10 15:21:00.822 | ERROR    | core.sync_service:run:231 - 迈本石家庄招行处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+                            └ <function split_income_expense at 0x000000001D297EC0>
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:00.825 | INFO     | core.sync_service:run:74 - 开始处理:迈本交行
+2026-08-10 15:21:00.916 | ERROR    | core.sync_service:run:231 - 迈本交行处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+                            └ <function split_income_expense at 0x000000001D297EC0>
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:00.917 | INFO     | core.sync_service:run:74 - 开始处理:迈本建行
+2026-08-10 15:21:01.027 | ERROR    | core.sync_service:run:231 - 迈本建行处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+                            └ <function split_income_expense at 0x000000001D297EC0>
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.028 | INFO     | core.sync_service:run:74 - 开始处理:迈本建行外外币户
+2026-08-10 15:21:01.107 | ERROR    | core.sync_service:run:231 - 迈本建行外外币户处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+                            └ <function split_income_expense at 0x000000001D297EC0>
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.108 | INFO     | core.sync_service:run:74 - 开始处理:迈本招行保证金户
+2026-08-10 15:21:01.246 | ERROR    | core.sync_service:run:231 - 迈本招行保证金户处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 151, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C180>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D49A0>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C7C0>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DC15D10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:21:01.252 | INFO     | core.sync_service:run:74 - 开始处理:迈本石家庄承兑
+2026-08-10 15:21:01.362 | ERROR    | core.sync_service:run:231 - 迈本石家庄承兑处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.365 | INFO     | core.sync_service:run:74 - 开始处理:迈本仪器（交行）
+2026-08-10 15:21:01.481 | ERROR    | core.sync_service:run:231 - 迈本仪器（交行）处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.484 | INFO     | core.sync_service:run:74 - 开始处理:仪器交行（数币户）
+2026-08-10 15:21:01.603 | ERROR    | core.sync_service:run:231 - 仪器交行（数币户）处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:01.605 | INFO     | core.sync_service:run:74 - 开始处理:仪器承兑
+2026-08-10 15:21:01.716 | ERROR    | core.sync_service:run:231 - 仪器承兑处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.719 | INFO     | core.sync_service:run:74 - 开始处理:北威
+2026-08-10 15:21:01.841 | WARNING  | core.sync_service:run:96 - 北威不是有效日记账格式，跳过
+2026-08-10 15:21:01.841 | INFO     | core.sync_service:run:74 - 开始处理:迈本成都
+2026-08-10 15:21:01.930 | ERROR    | core.sync_service:run:231 - 迈本成都处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:01.933 | INFO     | core.sync_service:run:74 - 开始处理:迈本成都承兑
+2026-08-10 15:21:02.061 | ERROR    | core.sync_service:run:231 - 迈本成都承兑处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:02.063 | INFO     | core.sync_service:run:74 - 开始处理:迈本沈阳
+2026-08-10 15:21:02.182 | ERROR    | core.sync_service:run:231 - 迈本沈阳处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:02.185 | INFO     | core.sync_service:run:74 - 开始处理:迈本沈阳承兑
+2026-08-10 15:21:02.282 | ERROR    | core.sync_service:run:231 - 迈本沈阳承兑处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:02.284 | INFO     | core.sync_service:run:74 - 开始处理:迈本苏州
+2026-08-10 15:21:02.395 | ERROR    | core.sync_service:run:231 - 迈本苏州处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:02.398 | INFO     | core.sync_service:run:74 - 开始处理:迈本苏州承兑
+2026-08-10 15:21:02.514 | ERROR    | core.sync_service:run:231 - 迈本苏州承兑处理异常:too many values to unpack (expected 2)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: too many values to unpack (expected 2)
+2026-08-10 15:21:02.517 | INFO     | core.sync_service:run:74 - 开始处理:长春奥强
+2026-08-10 15:21:02.649 | ERROR    | core.sync_service:run:231 - 长春奥强处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:02.652 | INFO     | core.sync_service:run:74 - 开始处理:苏州澳强
+2026-08-10 15:21:02.793 | ERROR    | core.sync_service:run:231 - 苏州澳强处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:02.795 | INFO     | core.sync_service:run:74 - 开始处理:天津富麦
+2026-08-10 15:21:02.897 | ERROR    | core.sync_service:run:231 - 天津富麦处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:02.900 | INFO     | core.sync_service:run:74 - 开始处理:迪青
+2026-08-10 15:21:03.038 | ERROR    | core.sync_service:run:231 - 迪青处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.041 | INFO     | core.sync_service:run:74 - 开始处理:义岭
+2026-08-10 15:21:03.180 | ERROR    | core.sync_service:run:231 - 义岭处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.182 | INFO     | core.sync_service:run:74 - 开始处理:沛能
+2026-08-10 15:21:03.287 | ERROR    | core.sync_service:run:231 - 沛能处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.289 | INFO     | core.sync_service:run:74 - 开始处理:现金
+2026-08-10 15:21:03.417 | ERROR    | core.sync_service:run:231 - 现金处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.419 | INFO     | core.sync_service:run:74 - 开始处理:康丽进（银行）
+2026-08-10 15:21:03.554 | ERROR    | core.sync_service:run:231 - 康丽进（银行）处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.557 | INFO     | core.sync_service:run:74 - 开始处理:吴利君
+2026-08-10 15:21:03.655 | ERROR    | core.sync_service:run:231 - 吴利君处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.658 | INFO     | core.sync_service:run:74 - 开始处理:马蕾
+2026-08-10 15:21:03.803 | ERROR    | core.sync_service:run:231 - 马蕾处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.805 | INFO     | core.sync_service:run:74 - 开始处理:王建肖
+2026-08-10 15:21:03.941 | ERROR    | core.sync_service:run:231 - 王建肖处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:03.944 | INFO     | core.sync_service:run:74 - 开始处理:白秀敏
+2026-08-10 15:21:04.046 | ERROR    | core.sync_service:run:231 - 白秀敏处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.048 | INFO     | core.sync_service:run:74 - 开始处理:雷朝霞
+2026-08-10 15:21:04.175 | ERROR    | core.sync_service:run:231 - 雷朝霞处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.178 | INFO     | core.sync_service:run:74 - 开始处理:李冬日
+2026-08-10 15:21:04.318 | ERROR    | core.sync_service:run:231 - 李冬日处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.320 | INFO     | core.sync_service:run:74 - 开始处理:佟丽
+2026-08-10 15:21:04.423 | ERROR    | core.sync_service:run:231 - 佟丽处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.426 | INFO     | core.sync_service:run:74 - 开始处理:雷杰
+2026-08-10 15:21:04.561 | ERROR    | core.sync_service:run:231 - 雷杰处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.564 | INFO     | core.sync_service:run:74 - 开始处理:晟才
+2026-08-10 15:21:04.691 | ERROR    | core.sync_service:run:231 - 晟才处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.693 | INFO     | core.sync_service:run:74 - 开始处理:马义岭
+2026-08-10 15:21:04.797 | ERROR    | core.sync_service:run:231 - 马义岭处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.799 | INFO     | core.sync_service:run:74 - 开始处理:刘勇
+2026-08-10 15:21:04.927 | ERROR    | core.sync_service:run:231 - 刘勇处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:04.929 | INFO     | core.sync_service:run:74 - 开始处理:王茜
+2026-08-10 15:21:05.065 | ERROR    | core.sync_service:run:231 - 王茜处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年               2026.0
+      月                  1.0
+      日                  1.0
+      摘要               存入保证金
+      明细摘要               NaN...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:05.068 | INFO     | core.sync_service:run:74 - 开始处理:李晓东
+2026-08-10 15:21:05.166 | ERROR    | core.sync_service:run:231 - 李晓东处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 151, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C180>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D49A0>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C7C0>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DB70A50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:21:05.168 | INFO     | core.sync_service:run:74 - 开始处理:刘硕
+2026-08-10 15:21:05.308 | ERROR    | core.sync_service:run:231 - 刘硕处理异常:not enough values to unpack (expected 2, got 0)
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000123E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C220>
+    └ <core.sync_service.SyncService object at 0x000000001A8EBF10>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 108, in run
+    income_df, expense_df = split_income_expense(
+    │                       └ <function split_income_expense at 0x000000001D297EC0>
+    └ ('income', 年                 NaN
+      月                 0.0
+      日                21.0
+      摘要                 结息
+      明细摘要              NaN
+      对方科目...
+
+ValueError: not enough values to unpack (expected 2, got 0)
+2026-08-10 15:21:05.310 | INFO     | core.sync_service:run:242 - 全部同步完成
+2026-08-10 15:21:05.310 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 15:24:30.785 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:24:30.859 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-10 15:24:30.859 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-10 15:24:30.913 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-10 15:24:30.913 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-10 15:24:30.994 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-10 15:24:30.995 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-10 15:24:31.202 | ERROR    | core.sync_service:run:236 - 迈本石家庄招行处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D3CC090>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.206 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-10 15:24:31.308 | ERROR    | core.sync_service:run:236 - 迈本交行处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DB9CD90>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.310 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-10 15:24:31.434 | ERROR    | core.sync_service:run:236 - 迈本建行处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DAA8850>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.436 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外外币户
+2026-08-10 15:24:31.554 | ERROR    | core.sync_service:run:236 - 迈本建行外外币户处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DE869D0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.556 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-10 15:24:31.692 | ERROR    | core.sync_service:run:236 - 迈本招行保证金户处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001AC7DFD0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.694 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-10 15:24:31.834 | ERROR    | core.sync_service:run:236 - 迈本石家庄承兑处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001B589750>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.835 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-10 15:24:31.976 | ERROR    | core.sync_service:run:236 - 迈本仪器（交行）处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD7DF50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:31.978 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-10 15:24:32.089 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-10 15:24:32.215 | ERROR    | core.sync_service:run:236 - 仪器承兑处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DBE2550>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.217 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-10 15:24:32.331 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-10 15:24:32.331 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-10 15:24:32.432 | ERROR    | core.sync_service:run:236 - 迈本成都处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DCB4F50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.434 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-10 15:24:32.578 | ERROR    | core.sync_service:run:236 - 迈本成都承兑处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D461950>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.580 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-10 15:24:32.721 | ERROR    | core.sync_service:run:236 - 迈本沈阳处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD85F10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.723 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-10 15:24:32.830 | ERROR    | core.sync_service:run:236 - 迈本沈阳承兑处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D54F6D0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.832 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-10 15:24:32.969 | ERROR    | core.sync_service:run:236 - 迈本苏州处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D3CC090>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:32.970 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-10 15:24:33.080 | ERROR    | core.sync_service:run:236 - 迈本苏州承兑处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD3DE10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:33.082 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-10 15:24:33.214 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-10 15:24:33.353 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-10 15:24:33.460 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-10 15:24:33.609 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-10 15:24:33.737 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-10 15:24:33.835 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-10 15:24:33.958 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-10 15:24:34.085 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-10 15:24:34.183 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-10 15:24:34.320 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-10 15:24:34.464 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-10 15:24:34.565 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-10 15:24:34.701 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-10 15:24:34.848 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-10 15:24:34.959 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-10 15:24:35.099 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-10 15:24:35.247 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-10 15:24:35.354 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-10 15:24:35.495 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-10 15:24:35.648 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-10 15:24:35.749 | ERROR    | core.sync_service:run:236 - 李晓东处理异常:File is not a zip file
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x0000000001188590>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001B8250D0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1299, in __init__
+    self._RealGetContents()
+    │    └ <function ZipFile._RealGetContents at 0x000000001BCFE0C0>
+    └ <zipfile.ZipFile [closed]>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1366, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+          └ <class 'zipfile.BadZipFile'>
+
+zipfile.BadZipFile: File is not a zip file
+2026-08-10 15:24:35.751 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-10 15:24:35.904 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-10 15:24:35.904 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 15:27:24.298 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:27:24.377 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-10 15:27:24.377 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-10 15:27:24.434 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-10 15:27:24.434 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-10 15:27:24.513 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-10 15:27:24.514 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-10 15:27:24.719 | ERROR    | core.sync_service:run:236 - 迈本石家庄招行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DCB8250>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:24.722 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-10 15:27:24.827 | ERROR    | core.sync_service:run:236 - 迈本交行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DE2D250>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:24.829 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-10 15:27:24.962 | ERROR    | core.sync_service:run:236 - 迈本建行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D787250>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:24.964 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外外币户
+2026-08-10 15:27:25.071 | ERROR    | core.sync_service:run:236 - 迈本建行外外币户处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DAFEB10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.073 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-10 15:27:25.198 | ERROR    | core.sync_service:run:236 - 迈本招行保证金户处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D1B5290>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.200 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-10 15:27:25.342 | ERROR    | core.sync_service:run:236 - 迈本石家庄承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001BA9C5D0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.343 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-10 15:27:25.487 | ERROR    | core.sync_service:run:236 - 迈本仪器（交行）处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DB40F50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.489 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-10 15:27:25.591 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-10 15:27:25.715 | ERROR    | core.sync_service:run:236 - 仪器承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DC08A10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.717 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-10 15:27:25.833 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-10 15:27:25.834 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-10 15:27:25.936 | ERROR    | core.sync_service:run:236 - 迈本成都处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DE19F50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:25.938 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-10 15:27:26.077 | ERROR    | core.sync_service:run:236 - 迈本成都承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DA93E50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:26.079 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-10 15:27:26.222 | ERROR    | core.sync_service:run:236 - 迈本沈阳处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DC1D950>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:26.225 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-10 15:27:26.332 | ERROR    | core.sync_service:run:236 - 迈本沈阳承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D910050>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:26.334 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-10 15:27:26.466 | ERROR    | core.sync_service:run:236 - 迈本苏州处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D46F790>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:26.468 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-10 15:27:26.580 | ERROR    | core.sync_service:run:236 - 迈本苏州承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001B6EC7D0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:26.582 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-10 15:27:26.724 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-10 15:27:26.859 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-10 15:27:26.959 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-10 15:27:27.085 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-10 15:27:27.209 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-10 15:27:27.308 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-10 15:27:27.430 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-10 15:27:27.555 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-10 15:27:27.652 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-10 15:27:27.777 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-10 15:27:27.903 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-10 15:27:28.002 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-10 15:27:28.128 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-10 15:27:28.256 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-10 15:27:28.358 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-10 15:27:28.484 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-10 15:27:28.614 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-10 15:27:28.714 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-10 15:27:28.841 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-10 15:27:28.968 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-10 15:27:29.070 | ERROR    | core.sync_service:run:236 - 李晓东处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000121E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001D472010>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D47C450>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:27:29.072 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-10 15:27:29.197 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-10 15:27:29.197 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 15:29:08.407 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:29:08.480 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-10 15:29:08.480 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-10 15:29:08.534 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-10 15:29:08.534 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-10 15:29:08.613 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-10 15:29:08.613 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-10 15:29:08.821 | ERROR    | core.sync_service:run:236 - 迈本石家庄招行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DA80E10>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:08.824 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-10 15:29:08.927 | ERROR    | core.sync_service:run:236 - 迈本交行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DAC4D90>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:08.929 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-10 15:29:09.061 | ERROR    | core.sync_service:run:236 - 迈本建行处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DCF9890>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.063 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外外币户
+2026-08-10 15:29:09.195 | ERROR    | core.sync_service:run:236 - 迈本建行外外币户处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DE2F510>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.197 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-10 15:29:09.334 | ERROR    | core.sync_service:run:236 - 迈本招行保证金户处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DB16490>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.336 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-10 15:29:09.476 | ERROR    | core.sync_service:run:236 - 迈本石家庄承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001A974690>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.478 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-10 15:29:09.621 | ERROR    | core.sync_service:run:236 - 迈本仪器（交行）处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DBD4190>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.624 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-10 15:29:09.736 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-10 15:29:09.864 | ERROR    | core.sync_service:run:236 - 仪器承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD51490>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:09.866 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-10 15:29:09.986 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-10 15:29:09.986 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-10 15:29:10.089 | ERROR    | core.sync_service:run:236 - 迈本成都处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DCCB950>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.091 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-10 15:29:10.232 | ERROR    | core.sync_service:run:236 - 迈本成都承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DC31ED0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.234 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-10 15:29:10.372 | ERROR    | core.sync_service:run:236 - 迈本沈阳处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD99510>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.374 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-10 15:29:10.483 | ERROR    | core.sync_service:run:236 - 迈本沈阳承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DE30CD0>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.485 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-10 15:29:10.617 | ERROR    | core.sync_service:run:236 - 迈本苏州处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001BA0C450>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.619 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-10 15:29:10.728 | ERROR    | core.sync_service:run:236 - 迈本苏州承兑处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001D448A50>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:10.730 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-10 15:29:10.873 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-10 15:29:11.017 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-10 15:29:11.123 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-10 15:29:11.256 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-10 15:29:11.384 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-10 15:29:11.481 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-10 15:29:11.605 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-10 15:29:11.730 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-10 15:29:11.829 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-10 15:29:11.955 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-10 15:29:12.081 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-10 15:29:12.180 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-10 15:29:12.306 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-10 15:29:12.431 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-10 15:29:12.530 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-10 15:29:12.655 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-10 15:29:12.783 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-10 15:29:12.883 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-10 15:29:13.013 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-10 15:29:13.141 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-10 15:29:13.240 | ERROR    | core.sync_service:run:236 - 李晓东处理异常:[Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+Traceback (most recent call last):
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 45, in <module>
+    main()
+    └ <function main at 0x000000000125E660>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\main.py", line 33, in main
+    service.run()
+    │       └ <function SyncService.run at 0x000000001D29C180>
+    └ <core.sync_service.SyncService object at 0x000000001A95E7D0>
+
+> File "D:\效率提升自动化\excel\cw\finance_sync\core\sync_service.py", line 154, in run
+    result = write_sheet(
+             └ <function write_sheet at 0x000000001D29C0E0>
+
+  File "D:\效率提升自动化\excel\cw\finance_sync\core\excel_writer.py", line 12, in write_sheet
+    wb = load_workbook(file)
+         │             └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+         └ <function load_workbook at 0x000000001D6D8860>
+
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 346, in load_workbook
+    reader = ExcelReader(filename, read_only, keep_vba,
+             │           │         │          └ False
+             │           │         └ False
+             │           └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+             └ <class 'openpyxl.reader.excel.ExcelReader'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 123, in __init__
+    self.archive = _validate_archive(fn)
+    │              │                 └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+    │              └ <function _validate_archive at 0x000000001D29C720>
+    └ <openpyxl.reader.excel.ExcelReader object at 0x000000001DD26A90>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\site-packages\openpyxl\reader\excel.py", line 95, in _validate_archive
+    archive = ZipFile(filename, 'r')
+              │       └ WindowsPath('D:/效率提升自动化/excel/cw/finance_sync/output/收入账_同步.xlsx')
+              └ <class 'zipfile.ZipFile'>
+  File "C:\Users\admin\AppData\Local\Programs\Python\Python311\Lib\zipfile.py", line 1281, in __init__
+    self.fp = io.open(file, filemode)
+    │    │    │  │    │     └ 'rb'
+    │    │    │  │    └ 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+    │    │    │  └ <built-in function open>
+    │    │    └ <module 'io' (frozen)>
+    │    └ None
+    └ <zipfile.ZipFile [closed]>
+
+FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动化\\excel\\cw\\finance_sync\\output\\收入账_同步.xlsx'
+2026-08-10 15:29:13.242 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-10 15:29:13.368 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-10 15:29:13.368 | INFO     | __main__:main:37 - 同步完成
+2026-08-10 15:30:35.308 | INFO     | __main__:main:15 - 开始同步
+2026-08-10 15:30:35.384 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-10 15:30:35.384 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-10 15:30:35.438 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-10 15:30:35.439 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-10 15:30:35.519 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-10 15:30:35.519 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-10 15:30:39.099 | INFO     | core.sync_service:run:180 - 迈本石家庄招行收入写入:1条
+2026-08-10 15:30:42.736 | INFO     | core.sync_service:run:223 - 迈本石家庄招行支出写入:3条
+2026-08-10 15:30:42.736 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-10 15:30:46.396 | INFO     | core.sync_service:run:180 - 迈本交行收入写入:1条
+2026-08-10 15:30:49.976 | INFO     | core.sync_service:run:223 - 迈本交行支出写入:3条
+2026-08-10 15:30:49.977 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-10 15:30:53.150 | INFO     | core.sync_service:run:180 - 迈本建行收入写入:1条
+2026-08-10 15:30:56.358 | INFO     | core.sync_service:run:223 - 迈本建行支出写入:3条
+2026-08-10 15:30:56.358 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外外币户
+2026-08-10 15:30:58.104 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本建行外外币户收入
+2026-08-10 15:30:59.751 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本建行外外币户支出
+2026-08-10 15:30:59.751 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-10 15:31:01.495 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-10 15:31:03.130 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-10 15:31:03.131 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-10 15:31:06.736 | INFO     | core.sync_service:run:180 - 迈本石家庄承兑收入写入:1条
+2026-08-10 15:31:10.289 | INFO     | core.sync_service:run:223 - 迈本石家庄承兑支出写入:3条
+2026-08-10 15:31:10.289 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-10 15:31:12.128 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-10 15:31:13.786 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-10 15:31:13.787 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-10 15:31:13.890 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-10 15:31:15.609 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:仪器承兑收入
+2026-08-10 15:31:17.230 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:仪器承兑支出
+2026-08-10 15:31:17.230 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-10 15:31:17.316 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-10 15:31:17.316 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-10 15:31:20.885 | INFO     | core.sync_service:run:180 - 迈本成都收入写入:1条
+2026-08-10 15:31:24.539 | INFO     | core.sync_service:run:223 - 迈本成都支出写入:3条
+2026-08-10 15:31:24.539 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-10 15:31:26.331 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-10 15:31:27.973 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-10 15:31:27.973 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-10 15:31:29.710 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-10 15:31:31.348 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-10 15:31:31.348 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-10 15:31:33.054 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-10 15:31:34.683 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-10 15:31:34.683 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-10 15:31:38.416 | INFO     | core.sync_service:run:180 - 迈本苏州收入写入:1条
+2026-08-10 15:31:42.057 | INFO     | core.sync_service:run:223 - 迈本苏州支出写入:3条
+2026-08-10 15:31:42.057 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-10 15:31:45.691 | INFO     | core.sync_service:run:180 - 迈本苏州承兑收入写入:1条
+2026-08-10 15:31:49.212 | INFO     | core.sync_service:run:223 - 迈本苏州承兑支出写入:3条
+2026-08-10 15:31:49.212 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-10 15:31:49.546 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-10 15:31:49.679 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-10 15:31:49.816 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-10 15:31:49.918 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-10 15:31:50.045 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-10 15:31:50.147 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-10 15:31:50.273 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-10 15:31:50.401 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-10 15:31:50.531 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-10 15:31:50.634 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-10 15:31:50.763 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-10 15:31:50.890 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-10 15:31:50.992 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-10 15:31:51.120 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-10 15:31:51.221 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-10 15:31:51.351 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-10 15:31:51.479 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-10 15:31:51.607 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-10 15:31:51.709 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-10 15:31:51.837 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-10 15:31:53.404 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:李晓东收入
+2026-08-10 15:31:53.404 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-10 15:31:53.502 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-10 15:31:53.503 | INFO     | __main__:main:37 - 同步完成
+2026-08-11 14:00:55.194 | INFO     | __main__:main:15 - 开始同步
+2026-08-11 14:00:55.271 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-11 14:00:55.272 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-11 14:00:55.329 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-11 14:00:55.330 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-11 14:00:55.402 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-11 14:00:55.403 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-11 14:01:24.731 | INFO     | core.sync_service:run:180 - 迈本石家庄招行收入写入:1条
+2026-08-11 14:01:25.609 | INFO     | core.sync_service:run:223 - 迈本石家庄招行支出写入:3条
+2026-08-11 14:01:25.609 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-11 14:01:51.826 | INFO     | core.sync_service:run:180 - 迈本交行收入写入:1条
+2026-08-11 14:01:52.779 | INFO     | core.sync_service:run:223 - 迈本交行支出写入:3条
+2026-08-11 14:01:52.779 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-11 14:02:17.909 | INFO     | core.sync_service:run:180 - 迈本建行收入写入:1条
+2026-08-11 14:02:18.670 | INFO     | core.sync_service:run:223 - 迈本建行支出写入:3条
+2026-08-11 14:02:18.670 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外币户
+2026-08-11 14:02:44.608 | INFO     | core.sync_service:run:180 - 迈本建行外币户收入写入:1条
+2026-08-11 14:02:46.940 | INFO     | core.sync_service:run:223 - 迈本建行外币户支出写入:3条
+2026-08-11 14:02:46.940 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-11 14:02:59.825 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-11 14:03:00.174 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-11 14:03:00.174 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-11 14:03:14.266 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本石家庄承兑收入
+2026-08-11 14:03:15.898 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本石家庄承兑支出
+2026-08-11 14:03:15.898 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-11 14:03:28.923 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-11 14:03:29.268 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-11 14:03:29.268 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-11 14:03:29.376 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-11 14:03:42.964 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:仪器承兑收入
+2026-08-11 14:03:43.300 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:仪器承兑支出
+2026-08-11 14:03:43.300 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-11 14:03:43.385 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-11 14:03:43.385 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-11 14:03:56.984 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本成都收入
+2026-08-11 14:03:57.319 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本成都支出
+2026-08-11 14:03:57.319 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-11 14:04:11.043 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-11 14:04:12.610 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-11 14:04:12.610 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-11 14:04:25.418 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-11 14:04:25.757 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-11 14:04:25.757 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-11 14:04:39.415 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-11 14:04:39.752 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-11 14:04:39.752 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-11 14:04:53.112 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本苏州收入
+2026-08-11 14:04:53.448 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本苏州支出
+2026-08-11 14:04:53.448 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-11 14:05:07.587 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本苏州承兑收入
+2026-08-11 14:05:07.987 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本苏州承兑支出
+2026-08-11 14:05:07.987 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-11 14:05:08.103 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-11 14:05:08.218 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-11 14:05:08.322 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-11 14:05:08.422 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-11 14:05:08.528 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-11 14:05:08.626 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-11 14:05:08.726 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-11 14:05:08.842 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-11 14:05:08.947 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-11 14:05:09.055 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-11 14:05:09.163 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-11 14:05:09.271 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-11 14:05:09.374 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-11 14:05:09.494 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-11 14:05:09.601 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-11 14:05:09.702 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-11 14:05:09.812 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-11 14:05:09.916 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-11 14:05:10.027 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-11 14:05:10.131 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-11 14:05:24.848 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:李晓东收入
+2026-08-11 14:05:24.849 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-11 14:05:24.987 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-11 14:05:24.987 | INFO     | __main__:main:37 - 同步完成

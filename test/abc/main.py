@@ -14,6 +14,9 @@ from core.style_cleaner import clean_document_style
 
 from core.style_importer import replace_styles_xml
 
+from core.cleaner.document_preprocessor import (
+    preprocess_document
+)
 
 
 BASE_DIR = Path(__file__).parent
@@ -91,6 +94,8 @@ def clean_docx_style(
             /
             "document.xml"
         )
+
+
 
 
         clean_document_style(

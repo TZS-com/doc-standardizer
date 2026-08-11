@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <parent>
+        <groupId>com.company</groupId>
+        <artifactId>doc-standardizer</artifactId>
+        <version>1.0.0</version>
+    </parent>
+
+    <artifactId>doc-standardizer-rule</artifactId>
+
+    <dependencies>
+
+
+        <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>doc-standardizer-common</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <version>5.10.2</version>
+            <scope>test</scope>
+        </dependency>
+
+
+    </dependencies>
+
+</project>
