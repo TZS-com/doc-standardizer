@@ -26,6 +26,11 @@ public class HeadingDetector {
         DocumentLevel styleLevel = levelFromWordStyle(paragraph.getStyleId(), paragraph.getStyleName());
         if (styleLevel != DocumentLevel.NORMAL) return styleLevel;
         if (paragraph.getOutlineLevel() != null) return convertLevel(paragraph.getOutlineLevel() + 1);
+        if (paragraph.getNumberingLevel() != null) {
+            return paragraph.isBulletNumbering() && paragraph.getNumberingLevel() == 0
+                    ? DocumentLevel.NONE_TITLE_ONE
+                    : convertLevel(paragraph.getNumberingLevel() + 1);
+        }
         return convertLevel(numberRule.matchLevel(paragraph.getText()));
     }
 

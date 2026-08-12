@@ -17,6 +17,13 @@ class HeadingDetectorTest {
         document.getParagraphs().add(paragraph(null, null, 2, "自动编号标题"));
         document.getParagraphs().add(paragraph(null, null, null, "1.2.3 技术方案"));
         document.getParagraphs().add(paragraph(null, null, null, "这是普通正文，包含 1.2 但不是标题。"));
+        ParagraphNode automaticTwo = paragraph(null, null, null, "自动编号的二级标题正文");
+        automaticTwo.setNumberingLevel(1);
+        document.getParagraphs().add(automaticTwo);
+        ParagraphNode bulletOne = paragraph(null, null, null, "无序项目");
+        bulletOne.setNumberingLevel(0);
+        bulletOne.setBulletNumbering(true);
+        document.getParagraphs().add(bulletOne);
         TemplateStyle mapped = new TemplateStyle(); mapped.setStyleId("29"); mapped.setLevel(1);
         TemplateDefinition template = new TemplateDefinition(); template.getStyles().add(mapped);
         new HeadingDetector().detect(document, template);
@@ -25,6 +32,8 @@ class HeadingDetectorTest {
         assertEquals(DocumentLevel.TITLE_THREE, document.getParagraphs().get(2).getLevel());
         assertEquals(DocumentLevel.TITLE_THREE, document.getParagraphs().get(3).getLevel());
         assertEquals(DocumentLevel.NORMAL, document.getParagraphs().get(4).getLevel());
+        assertEquals(DocumentLevel.TITLE_TWO, document.getParagraphs().get(5).getLevel());
+        assertEquals(DocumentLevel.NONE_TITLE_ONE, document.getParagraphs().get(6).getLevel());
     }
     private ParagraphNode paragraph(String id, String name, Integer outline, String text) {
         ParagraphNode node = new ParagraphNode(); node.setStyleId(id); node.setStyleName(name); node.setOutlineLevel(outline); node.setText(text); return node;

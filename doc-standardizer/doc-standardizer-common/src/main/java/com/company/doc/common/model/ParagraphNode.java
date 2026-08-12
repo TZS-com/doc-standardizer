@@ -51,6 +51,17 @@ public class ParagraphNode {
 
 
     /**
+     * Word automatic-numbering level. Word stores level zero for a first-level
+     * item, one for a second-level item, and so on.
+     */
+    private Integer numberingLevel;
+
+
+    /** True when the automatic numbering format is a Word bullet rather than an ordered number. */
+    private boolean bulletNumbering;
+
+
+    /**
      * 原始对象
      */
     private Object source;

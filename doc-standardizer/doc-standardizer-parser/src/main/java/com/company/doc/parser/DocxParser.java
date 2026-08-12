@@ -8,6 +8,14 @@ import com.company.doc.common.model.ParagraphNode;
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
 import org.apache.poi.xwpf.usermodel.XWPFStyle;
+import org.apache.poi.xwpf.usermodel.XWPFNum;
+import org.apache.poi.xwpf.usermodel.XWPFAbstractNum;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPPr;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTPPrGeneral;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTStyle;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTNumPr;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTLvl;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.STNumberFormat;
 
 
 import java.io.File;
@@ -69,38 +77,17 @@ public class DocxParser {
                 /*
                  * 获取Word大纲级别
                  */
-                if(
-                        paragraph.getCTP()
-                                .getPPr() != null
-                                &&
-                                paragraph.getCTP()
-                                        .getPPr()
-                                        .getOutlineLvl() != null
-                ){
-
-                    node.setOutlineLevel(
-                            paragraph.getCTP()
-                                    .getPPr()
-                                    .getOutlineLvl()
-                                    .getVal()
-                                    .intValue()
-                    );
-
-                }
+                node.setOutlineLevel(resolveOutlineLevel(paragraph, document));
 
 
 
                 /*
                  * 判断是否自动编号
                  */
-                node.setNumbered(
-                        paragraph.getCTP()
-                                .getPPr() != null
-                                &&
-                                paragraph.getCTP()
-                                        .getPPr()
-                                        .getNumPr() != null
-                );
+                Integer numberingLevel = resolveNumberingLevel(paragraph, document);
+                node.setNumbered(numberingLevel != null);
+                node.setNumberingLevel(numberingLevel);
+                node.setBulletNumbering(isBulletNumbering(paragraph, document, numberingLevel));
 
 
 
@@ -120,6 +107,92 @@ public class DocxParser {
 
         return model;
 
+    }
+
+    private Integer resolveOutlineLevel(XWPFParagraph paragraph, XWPFDocument document) {
+        CTPPr properties = paragraph.getCTP().getPPr();
+        Integer directLevel = outlineLevelOf(properties);
+        if (directLevel != null) return directLevel;
+
+        XWPFStyle style = document.getStyles() == null ? null : document.getStyles().getStyle(paragraph.getStyle());
+        int safetyLimit = 32;
+        while (style != null && safetyLimit-- > 0) {
+            CTStyle ctStyle = style.getCTStyle();
+            Integer styleLevel = ctStyle == null ? null : outlineLevelOf(ctStyle.getPPr());
+            if (styleLevel != null) return styleLevel;
+            String baseStyleId = style.getBasisStyleID();
+            style = baseStyleId == null || document.getStyles() == null ? null : document.getStyles().getStyle(baseStyleId);
+        }
+        return null;
+    }
+
+    private Integer outlineLevelOf(CTPPr properties) {
+        return properties != null && properties.getOutlineLvl() != null
+                ? properties.getOutlineLvl().getVal().intValue()
+                : null;
+    }
+
+    private Integer outlineLevelOf(CTPPrGeneral properties) {
+        return properties != null && properties.getOutlineLvl() != null
+                ? properties.getOutlineLvl().getVal().intValue()
+                : null;
+    }
+
+    /** Reads numbering from the paragraph first, then from its based-on style chain. */
+    private Integer resolveNumberingLevel(XWPFParagraph paragraph, XWPFDocument document) {
+        Integer directLevel = numberingLevelOf(paragraph.getCTP().getPPr());
+        if (directLevel != null) return directLevel;
+
+        XWPFStyle style = document.getStyles() == null ? null : document.getStyles().getStyle(paragraph.getStyle());
+        int safetyLimit = 32;
+        while (style != null && safetyLimit-- > 0) {
+            CTStyle ctStyle = style.getCTStyle();
+            Integer styleLevel = ctStyle == null ? null : numberingLevelOf(ctStyle.getPPr());
+            if (styleLevel != null) return styleLevel;
+            String baseStyleId = style.getBasisStyleID();
+            style = baseStyleId == null || document.getStyles() == null ? null : document.getStyles().getStyle(baseStyleId);
+        }
+        return null;
+    }
+
+    private Integer numberingLevelOf(CTPPr properties) {
+        return numberingLevelOf(properties == null ? null : properties.getNumPr());
+    }
+
+    private Integer numberingLevelOf(CTPPrGeneral properties) {
+        return numberingLevelOf(properties == null ? null : properties.getNumPr());
+    }
+
+    private Integer numberingLevelOf(CTNumPr numbering) {
+        if (numbering == null || numbering.getNumId() == null) return null;
+        return numbering.getIlvl() == null ? 0 : numbering.getIlvl().getVal().intValue();
+    }
+
+    private boolean isBulletNumbering(XWPFParagraph paragraph, XWPFDocument document, Integer numberingLevel) {
+        if (numberingLevel == null || document.getNumbering() == null) return false;
+        CTNumPr numberProperties = resolveNumberingProperties(paragraph, document);
+        if (numberProperties == null || numberProperties.getNumId() == null) return false;
+        XWPFNum number = document.getNumbering().getNum(numberProperties.getNumId().getVal());
+        if (number == null || number.getCTNum().getAbstractNumId() == null) return false;
+        XWPFAbstractNum abstractNumber = document.getNumbering().getAbstractNum(number.getCTNum().getAbstractNumId().getVal());
+        if (abstractNumber == null) return false;
+        CTLvl level = abstractNumber.getCTAbstractNum().getLvlArray(numberingLevel);
+        return level != null && level.getNumFmt() != null && level.getNumFmt().getVal() == STNumberFormat.BULLET;
+    }
+
+    private CTNumPr resolveNumberingProperties(XWPFParagraph paragraph, XWPFDocument document) {
+        CTPPr properties = paragraph.getCTP().getPPr();
+        if (properties != null && properties.getNumPr() != null && properties.getNumPr().getNumId() != null) return properties.getNumPr();
+        XWPFStyle style = document.getStyles() == null ? null : document.getStyles().getStyle(paragraph.getStyle());
+        int safetyLimit = 32;
+        while (style != null && safetyLimit-- > 0) {
+            CTStyle ctStyle = style.getCTStyle();
+            CTPPrGeneral styleProperties = ctStyle == null ? null : ctStyle.getPPr();
+            if (styleProperties != null && styleProperties.getNumPr() != null && styleProperties.getNumPr().getNumId() != null) return styleProperties.getNumPr();
+            String baseStyleId = style.getBasisStyleID();
+            style = baseStyleId == null || document.getStyles() == null ? null : document.getStyles().getStyle(baseStyleId);
+        }
+        return null;
     }
 
 }
