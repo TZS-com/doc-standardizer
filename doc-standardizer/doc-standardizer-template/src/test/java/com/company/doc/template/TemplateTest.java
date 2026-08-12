@@ -16,7 +16,6 @@ public class TemplateTest {
                 new WordTemplateParser();
 
 
-
         TemplateDefinition definition =
                 parser.parse(
                         new File(
@@ -25,28 +24,16 @@ public class TemplateTest {
                 );
 
 
-
         definition.getStyles()
                 .forEach(
-                        s -> {
-
-                            System.out.println(
-                                    s.getStyleId()
-                                            +
-                                            " | "
-                                            +
-                                            s.getStyleName()
-                                            +
-                                            " | heading="
-                                            +
-                                            s.isHeading()
-                                            +
-                                            " | level="
-                                            +
-                                            s.getLevel()
-                            );
-
-                        }
+                        s ->
+                                System.out.println(
+                                        s.getStyleId()
+                                                +
+                                                " 使用次数="
+                                                +
+                                                s.getUseCount()
+                                )
                 );
 
 

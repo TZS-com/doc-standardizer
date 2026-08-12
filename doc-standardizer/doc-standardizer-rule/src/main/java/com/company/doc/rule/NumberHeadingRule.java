@@ -1,103 +1,22 @@
 package com.company.doc.rule;
 
-
 import java.util.regex.Pattern;
 
-
-/**
- * 标题编号识别规则
- *
- * 支持:
- * 1 xxx
- * 1.1 xxx
- * 1.1.1 xxx
- */
+/** Detects common manually typed Chinese and Arabic heading numbers. */
 public class NumberHeadingRule {
+    private static final Pattern LEVEL_ONE = Pattern.compile("^\\s*(?:第\\s*)?\\d+(?:\\s*[、.．])?\\s+\\S.*$");
+    private static final Pattern LEVEL_TWO = Pattern.compile("^\\s*\\d+[.．]\\d+(?:\\s*[、.．])?\\s+\\S.*$");
+    private static final Pattern LEVEL_THREE = Pattern.compile("^\\s*\\d+(?:[.．]\\d+){2,}(?:\\s*[、.．])?\\s+\\S.*$");
+    private static final Pattern CHINESE_ONE = Pattern.compile("^\\s*第[一二三四五六七八九十百千万零〇]+[章节部分]\\s*.+$");
+    private static final Pattern CHINESE_TWO = Pattern.compile("^\\s*[（(][一二三四五六七八九十百千万零〇]+[）)]\\s*.+$");
+    private static final Pattern CHINESE_THREE = Pattern.compile("^\\s*[一二三四五六七八九十百千万零〇]+[、.]\\s*.+$");
 
-
-    /**
-     * 一级标题
-     * 示例:
-     * 1 项目概述
-     */
-    private static final Pattern LEVEL_ONE =
-            Pattern.compile(
-                    "^\\s*\\d+\\s+.+"
-            );
-
-
-    /**
-     * 二级标题
-     * 示例:
-     * 1.1 项目背景
-     */
-    private static final Pattern LEVEL_TWO =
-            Pattern.compile(
-                    "^\\s*\\d+\\.\\d+\\s+.+"
-            );
-
-
-    /**
-     * 三级标题
-     * 示例:
-     * 1.1.1 建设目标
-     */
-    private static final Pattern LEVEL_THREE =
-            Pattern.compile(
-                    "^\\s*\\d+\\.\\d+\\.\\d+\\s+.+"
-            );
-
-
-
-    /**
-     * 返回标题等级
-     *
-     * @return
-     * 0 普通文本
-     * 1 一级标题
-     * 2 二级标题
-     * 3 三级标题
-     */
-    public int matchLevel(String text){
-
-
-        if(text == null ||
-                text.trim().isEmpty()){
-
-            return 0;
-
-        }
-
-
-        text = text.trim();
-
-
-        // 注意顺序
-        // 三级必须最先判断
-
-        if(LEVEL_THREE.matcher(text).matches()){
-
-            return 3;
-
-        }
-
-
-        if(LEVEL_TWO.matcher(text).matches()){
-
-            return 2;
-
-        }
-
-
-        if(LEVEL_ONE.matcher(text).matches()){
-
-            return 1;
-
-        }
-
-
+    public int matchLevel(String text) {
+        if (text == null || text.trim().isEmpty()) return 0;
+        String value = text.trim();
+        if (LEVEL_THREE.matcher(value).matches() || CHINESE_THREE.matcher(value).matches()) return 3;
+        if (LEVEL_TWO.matcher(value).matches() || CHINESE_TWO.matcher(value).matches()) return 2;
+        if (LEVEL_ONE.matcher(value).matches() || CHINESE_ONE.matcher(value).matches()) return 1;
         return 0;
-
     }
-
 }

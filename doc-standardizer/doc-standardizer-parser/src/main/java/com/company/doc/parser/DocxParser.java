@@ -7,6 +7,7 @@ import com.company.doc.common.model.ParagraphNode;
 
 import org.apache.poi.xwpf.usermodel.XWPFDocument;
 import org.apache.poi.xwpf.usermodel.XWPFParagraph;
+import org.apache.poi.xwpf.usermodel.XWPFStyle;
 
 
 import java.io.File;
@@ -54,11 +55,14 @@ public class DocxParser {
                         paragraph.getText()
                 );
 
-
-
-                node.setStyleName(
+                node.setStyleId(
                         paragraph.getStyle()
                 );
+
+
+
+                XWPFStyle style = document.getStyles() == null ? null : document.getStyles().getStyle(paragraph.getStyle());
+                node.setStyleName(style == null ? null : style.getName());
 
 
 

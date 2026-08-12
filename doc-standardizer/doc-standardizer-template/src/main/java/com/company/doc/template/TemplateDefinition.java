@@ -12,18 +12,32 @@ import java.util.List;
 public class TemplateDefinition {
 
 
-    /**
-     * 模板名称
-     */
     private String name;
 
 
-
-    /**
-     * 样式集合
-     */
     private List<TemplateStyle> styles =
             new ArrayList<>();
 
+
+    public TemplateStyle findStyle(
+            String styleId
+    ){
+
+        for(TemplateStyle style :
+                styles){
+
+            if(styleId.equals(
+                    style.getStyleId()
+            )){
+
+                return style;
+
+            }
+
+        }
+
+        return null;
+
+    }
 
 }

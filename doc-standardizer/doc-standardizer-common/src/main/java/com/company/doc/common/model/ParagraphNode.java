@@ -2,30 +2,26 @@ package com.company.doc.common.model;
 
 
 import com.company.doc.common.enums.DocumentLevel;
-
 import lombok.Data;
 
-
-/**
- * Word段落模型
- */
 @Data
 public class ParagraphNode {
 
 
-    /**
-     * 段落文本
-     */
-    private String text;
-
-    /**
-     * 段落序号
-     */
     private int index;
 
 
+    private String text;
+
+
     /**
-     * Word原始样式名称
+     * Word原始样式ID
+     */
+    private String styleId;
+
+
+    /**
+     * Word样式名称
      */
     private String styleName;
 
@@ -35,42 +31,28 @@ public class ParagraphNode {
      */
     private Integer outlineLevel;
 
+
     /**
-     * 是否存在自动编号
+     * 标准文档级别
+     */
+    private DocumentLevel level;
+
+
+    /**
+     * 标准角色
+     */
+    private String role;
+
+
+    /**
+     * 是否编号
      */
     private boolean numbered;
 
-    /**
-     * 是否目录内容
-     */
-    private boolean toc;
-
 
     /**
-     * 是否疑似标题
-     */
-    private boolean headingCandidate;
-
-
-
-
-    /**
-     * 标准化后的标题等级
-     *
-     * 由 HeadingDetector 分析生成
-     */
-    private DocumentLevel level =
-            DocumentLevel.NORMAL;
-
-
-
-
-
-
-    /**
-     * 原始Word段落对象
+     * 原始对象
      */
     private Object source;
-
 
 }

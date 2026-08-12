@@ -22,6 +22,16 @@ public class TemplateStyle {
      */
     private String styleName;
 
+    /**
+     * 出现次数
+     */
+    private int useCount;
+
+    /**
+     * 标准角色
+     */
+    private String role;
+
 
     /**
      * 样式类型
@@ -42,6 +52,8 @@ public class TemplateStyle {
      * 标题等级
      */
     private Integer level;
+
+    private Integer outlineLevel;
 
 
 }

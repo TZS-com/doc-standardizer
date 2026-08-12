@@ -4,7 +4,7 @@ package com.company.doc.core;
 import com.company.doc.common.model.DocumentModel;
 import com.company.doc.parser.DocxParser;
 import com.company.doc.rule.HeadingDetector;
-
+import com.company.doc.template.TemplateDefinition;
 
 import java.io.File;
 
@@ -17,16 +17,21 @@ public class StandardizePipeline {
 
     private final DocxParser parser;
 
-
     private final HeadingDetector detector;
 
+    private final TemplateDefinition template;
 
 
-    public StandardizePipeline(){
+
+    public StandardizePipeline(
+            TemplateDefinition template
+    ){
 
         this.parser = new DocxParser();
 
         this.detector = new HeadingDetector();
+
+        this.template = template;
 
     }
 
@@ -54,7 +59,10 @@ public class StandardizePipeline {
          * 第二步:
          * 标题识别
          */
-        detector.detect(model);
+        detector.detect(
+                model,
+                template
+        );
 
 
 
