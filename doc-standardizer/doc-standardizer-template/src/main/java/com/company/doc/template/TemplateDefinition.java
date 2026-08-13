@@ -40,4 +40,13 @@ public class TemplateDefinition {
 
     }
 
+    public TemplateStyle findStyleByRole(String role) {
+        for (TemplateStyle style : styles) {
+            if (role.equals(style.getRole())) {
+                return style;
+            }
+        }
+        return null;
+    }
+
 }

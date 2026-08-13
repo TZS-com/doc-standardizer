@@ -10,8 +10,14 @@ public enum DocumentLevel {
 
     TITLE_THREE(3),
 
+    TITLE_FOUR(4),
+
     /** Unordered (bullet) first-level item; intentionally distinct from an ordered title. */
     NONE_TITLE_ONE(1),
+
+    NONE_TITLE_TWO(2),
+
+    NONE_TITLE_THREE(3),
 
     NORMAL(0);
 

@@ -51,6 +51,17 @@
         </dependency>
 
         <dependency>
+            <groupId>com.company</groupId>
+            <artifactId>doc-standardizer-template</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>org.junit.jupiter</groupId>
             <artifactId>junit-jupiter</artifactId>
             <version>5.10.0</version>

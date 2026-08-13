@@ -61,6 +61,19 @@ public class ParagraphNode {
     private boolean bulletNumbering;
 
 
+    /** BODY, TABLE, HEADER or FOOTER. */
+    private String location = "BODY";
+
+
+    private Integer tableIndex;
+
+
+    private Integer rowIndex;
+
+
+    private Integer cellIndex;
+
+
     /**
      * 原始对象
      */

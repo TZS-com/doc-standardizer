@@ -19,6 +19,7 @@ class HeadingDetectorTest {
         document.getParagraphs().add(paragraph(null, null, null, "这是普通正文，包含 1.2 但不是标题。"));
         ParagraphNode automaticTwo = paragraph(null, null, null, "自动编号的二级标题正文");
         automaticTwo.setNumberingLevel(1);
+        automaticTwo.setOutlineLevel(0);
         document.getParagraphs().add(automaticTwo);
         ParagraphNode bulletOne = paragraph(null, null, null, "无序项目");
         bulletOne.setNumberingLevel(0);
