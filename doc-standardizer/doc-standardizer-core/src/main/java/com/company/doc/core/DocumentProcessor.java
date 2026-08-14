@@ -116,5 +116,10 @@ public class DocumentProcessor {
         new CoverStyleApplier().applyToCopy(templateFile, input, outputFile);
     }
 
+    /** Applies the template's caption, header and body styles to article tables. */
+    public void applyArticleTableStylesTo(File input, File outputFile) throws Exception {
+        new ArticleTableStyleApplier().applyToCopy(templateFile, input, outputFile);
+    }
+
 
 }

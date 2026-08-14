@@ -37,3 +37,14 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Local document assets and generated batch-processing output
+.m2/
+input/
+output/
+input-*/
+output-*/
+*.docx
+*.docx~
+~$*.docx
+图片*.png

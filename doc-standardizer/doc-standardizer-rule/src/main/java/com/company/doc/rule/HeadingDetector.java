@@ -21,23 +21,31 @@ public class HeadingDetector {
     private DocumentLevel detectLevel(ParagraphNode paragraph, TemplateDefinition template) {
         if (isBlank(paragraph.getText())) return DocumentLevel.NORMAL;
         if (isTocStyle(paragraph.getStyleId(), paragraph.getStyleName())) return DocumentLevel.NORMAL;
+        DocumentLevel styleLevel = levelFromWordStyle(paragraph.getStyleId(), paragraph.getStyleName());
+        if (styleLevel != DocumentLevel.NORMAL) return styleLevel;
+        if (paragraph.getNumberingLevel() != null) {
+            if (paragraph.isBulletNumbering() && paragraph.getNumberingLevel() == 0) {
+                return DocumentLevel.NONE_TITLE_ONE;
+            }
+            return convertLevel(paragraph.getNumberingLevel() + 1);
+        }
+        // Some Word files write outlineLvl=0 on every numbered heading. When
+        // numbering exists, ilvl is the reliable hierarchy (11.1 is level 2).
+        if (hasValidOutlineHeading(paragraph)) {
+            return convertLevel(paragraph.getOutlineLevel() + 1);
+        }
+        // Some source documents reuse a template style ID for a different
+        // hierarchy. Word's actual numbering/outline data above is therefore
+        // more trustworthy than the template's semantic fallback.
         TemplateStyle templateStyle = paragraph.getStyleId() == null ? null : template.findStyle(paragraph.getStyleId());
         if (templateStyle != null && templateStyle.getLevel() != null) {
             return convertLevel(templateStyle.getLevel());
         }
-        DocumentLevel styleLevel = levelFromWordStyle(paragraph.getStyleId(), paragraph.getStyleName());
-        if (styleLevel != DocumentLevel.NORMAL) return styleLevel;
-        if (paragraph.getNumberingLevel() != null) {
-            return paragraph.isBulletNumbering() && paragraph.getNumberingLevel() == 0
-                    ? DocumentLevel.NONE_TITLE_ONE
-                    : convertLevel(paragraph.getNumberingLevel() + 1);
-        }
-        // Some Word files write outlineLvl=0 on every numbered heading. When
-        // numbering exists, ilvl is the reliable hierarchy (11.1 is level 2).
-        if (paragraph.getOutlineLevel() != null && isOutlineHeadingCandidate(paragraph.getText())) {
-            return convertLevel(paragraph.getOutlineLevel() + 1);
-        }
         return convertLevel(numberRule.matchLevel(paragraph.getText()));
+    }
+
+    private boolean hasValidOutlineHeading(ParagraphNode paragraph) {
+        return paragraph.getOutlineLevel() != null && isOutlineHeadingCandidate(paragraph.getText());
     }
 
     /** Prevent full English body sentences carrying a corrupt outlineLvl=0 from becoming headings. */

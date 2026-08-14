@@ -25,8 +25,12 @@ class HeadingDetectorTest {
         bulletOne.setNumberingLevel(0);
         bulletOne.setBulletNumbering(true);
         document.getParagraphs().add(bulletOne);
+        ParagraphNode reusedTemplateStyle = paragraph("115", null, 2, "执行原则");
+        reusedTemplateStyle.setNumberingLevel(2);
+        document.getParagraphs().add(reusedTemplateStyle);
         TemplateStyle mapped = new TemplateStyle(); mapped.setStyleId("29"); mapped.setLevel(1);
-        TemplateDefinition template = new TemplateDefinition(); template.getStyles().add(mapped);
+        TemplateStyle incorrectlyMapped = new TemplateStyle(); incorrectlyMapped.setStyleId("115"); incorrectlyMapped.setLevel(2);
+        TemplateDefinition template = new TemplateDefinition(); template.getStyles().add(mapped); template.getStyles().add(incorrectlyMapped);
         new HeadingDetector().detect(document, template);
         assertEquals(DocumentLevel.TITLE_ONE, document.getParagraphs().get(0).getLevel());
         assertEquals(DocumentLevel.TITLE_TWO, document.getParagraphs().get(1).getLevel());
@@ -35,6 +39,7 @@ class HeadingDetectorTest {
         assertEquals(DocumentLevel.NORMAL, document.getParagraphs().get(4).getLevel());
         assertEquals(DocumentLevel.TITLE_TWO, document.getParagraphs().get(5).getLevel());
         assertEquals(DocumentLevel.NONE_TITLE_ONE, document.getParagraphs().get(6).getLevel());
+        assertEquals(DocumentLevel.TITLE_THREE, document.getParagraphs().get(7).getLevel());
     }
     private ParagraphNode paragraph(String id, String name, Integer outline, String text) {
         ParagraphNode node = new ParagraphNode(); node.setStyleId(id); node.setStyleName(name); node.setOutlineLevel(outline); node.setText(text); return node;

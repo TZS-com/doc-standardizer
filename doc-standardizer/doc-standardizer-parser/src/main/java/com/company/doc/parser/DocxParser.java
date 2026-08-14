@@ -140,15 +140,17 @@ public class DocxParser {
 
     /** Reads numbering from the paragraph first, then from its based-on style chain. */
     private Integer resolveNumberingLevel(XWPFParagraph paragraph, XWPFDocument document) {
-        Integer directLevel = numberingLevelOf(paragraph.getCTP().getPPr());
-        if (directLevel != null) return directLevel;
+        Integer level = numberingLevelOf(paragraph.getCTP().getPPr());
+        if (hasNumberId(paragraph.getCTP().getPPr())) return level == null ? 0 : level;
 
         XWPFStyle style = document.getStyles() == null ? null : document.getStyles().getStyle(paragraph.getStyle());
         int safetyLimit = 32;
         while (style != null && safetyLimit-- > 0) {
             CTStyle ctStyle = style.getCTStyle();
-            Integer styleLevel = ctStyle == null ? null : numberingLevelOf(ctStyle.getPPr());
-            if (styleLevel != null) return styleLevel;
+            CTPPrGeneral styleProperties = ctStyle == null ? null : ctStyle.getPPr();
+            Integer styleLevel = numberingLevelOf(styleProperties);
+            if (level == null && styleLevel != null) level = styleLevel;
+            if (hasNumberId(styleProperties)) return level == null ? 0 : level;
             String baseStyleId = style.getBasisStyleID();
             style = baseStyleId == null || document.getStyles() == null ? null : document.getStyles().getStyle(baseStyleId);
         }
@@ -164,8 +166,16 @@ public class DocxParser {
     }
 
     private Integer numberingLevelOf(CTNumPr numbering) {
-        if (numbering == null || numbering.getNumId() == null) return null;
-        return numbering.getIlvl() == null ? 0 : numbering.getIlvl().getVal().intValue();
+        if (numbering == null || numbering.getIlvl() == null) return null;
+        return numbering.getIlvl().getVal().intValue();
+    }
+
+    private boolean hasNumberId(CTPPr properties) {
+        return properties != null && properties.getNumPr() != null && properties.getNumPr().getNumId() != null;
+    }
+
+    private boolean hasNumberId(CTPPrGeneral properties) {
+        return properties != null && properties.getNumPr() != null && properties.getNumPr().getNumId() != null;
     }
 
     private boolean isBulletNumbering(XWPFParagraph paragraph, XWPFDocument document, Integer numberingLevel) {
