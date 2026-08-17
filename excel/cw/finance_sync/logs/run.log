@@ -3408,3 +3408,402 @@ FileNotFoundError: [Errno 2] No such file or directory: 'D:\\效率提升自动�
 2026-08-11 14:05:24.849 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
 2026-08-11 14:05:24.987 | INFO     | core.sync_service:run:247 - 全部同步完成
 2026-08-11 14:05:24.987 | INFO     | __main__:main:37 - 同步完成
+2026-08-17 16:48:09.677 | INFO     | __main__:main:15 - 开始同步
+2026-08-17 16:48:09.760 | INFO     | core.sync_service:run:53 - 发现日记账Sheet数量:40
+2026-08-17 16:48:09.760 | INFO     | core.sync_service:run:62 - 开始处理:各账户余额表
+2026-08-17 16:48:09.818 | WARNING  | core.sync_service:run:83 - 各账户余额表不是有效日记账，跳过
+2026-08-17 16:48:09.819 | INFO     | core.sync_service:run:62 - 开始处理:承兑余额表
+2026-08-17 16:48:09.893 | WARNING  | core.sync_service:run:83 - 承兑余额表不是有效日记账，跳过
+2026-08-17 16:48:09.894 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄招行
+2026-08-17 16:48:40.085 | INFO     | core.sync_service:run:180 - 迈本石家庄招行收入写入:1条
+2026-08-17 16:48:40.983 | INFO     | core.sync_service:run:223 - 迈本石家庄招行支出写入:3条
+2026-08-17 16:48:40.984 | INFO     | core.sync_service:run:62 - 开始处理:迈本交行
+2026-08-17 16:49:06.918 | INFO     | core.sync_service:run:180 - 迈本交行收入写入:1条
+2026-08-17 16:49:07.867 | INFO     | core.sync_service:run:223 - 迈本交行支出写入:3条
+2026-08-17 16:49:07.867 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行
+2026-08-17 16:49:33.935 | INFO     | core.sync_service:run:180 - 迈本建行收入写入:1条
+2026-08-17 16:49:34.619 | INFO     | core.sync_service:run:223 - 迈本建行支出写入:3条
+2026-08-17 16:49:34.619 | INFO     | core.sync_service:run:62 - 开始处理:迈本建行外币户
+2026-08-17 16:50:01.443 | INFO     | core.sync_service:run:180 - 迈本建行外币户收入写入:1条
+2026-08-17 16:50:02.409 | INFO     | core.sync_service:run:223 - 迈本建行外币户支出写入:3条
+2026-08-17 16:50:02.409 | INFO     | core.sync_service:run:62 - 开始处理:迈本招行保证金户
+2026-08-17 16:50:15.471 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-17 16:50:17.053 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-17 16:50:17.053 | INFO     | core.sync_service:run:62 - 开始处理:迈本石家庄承兑
+2026-08-17 16:50:29.755 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本石家庄承兑收入
+2026-08-17 16:50:30.094 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本石家庄承兑支出
+2026-08-17 16:50:30.095 | INFO     | core.sync_service:run:62 - 开始处理:迈本仪器（交行）
+2026-08-17 16:50:43.434 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-17 16:50:45.008 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-17 16:50:45.008 | INFO     | core.sync_service:run:62 - 开始处理:仪器交行（数币户）
+2026-08-17 16:50:45.208 | INFO     | core.sync_service:run:62 - 开始处理:仪器承兑
+2026-08-17 16:50:57.440 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:仪器承兑收入
+2026-08-17 16:50:58.990 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:仪器承兑支出
+2026-08-17 16:50:58.990 | INFO     | core.sync_service:run:62 - 开始处理:北威
+2026-08-17 16:50:59.173 | WARNING  | core.sync_service:run:83 - 北威不是有效日记账，跳过
+2026-08-17 16:50:59.174 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都
+2026-08-17 16:51:11.670 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本成都收入
+2026-08-17 16:51:12.003 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本成都支出
+2026-08-17 16:51:12.003 | INFO     | core.sync_service:run:62 - 开始处理:迈本成都承兑
+2026-08-17 16:51:26.034 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-17 16:51:26.381 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-17 16:51:26.381 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳
+2026-08-17 16:51:40.032 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-17 16:51:40.404 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-17 16:51:40.404 | INFO     | core.sync_service:run:62 - 开始处理:迈本沈阳承兑
+2026-08-17 16:51:54.246 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-17 16:51:54.582 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-17 16:51:54.583 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州
+2026-08-17 16:52:07.778 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本苏州收入
+2026-08-17 16:52:08.118 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本苏州支出
+2026-08-17 16:52:08.119 | INFO     | core.sync_service:run:62 - 开始处理:迈本苏州承兑
+2026-08-17 16:52:21.774 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:迈本苏州承兑收入
+2026-08-17 16:52:22.112 | WARNING  | core.sync_service:run:212 - 支出账缺少Sheet:迈本苏州承兑支出
+2026-08-17 16:52:22.112 | INFO     | core.sync_service:run:62 - 开始处理:长春奥强
+2026-08-17 16:52:22.216 | INFO     | core.sync_service:run:62 - 开始处理:苏州澳强
+2026-08-17 16:52:22.318 | INFO     | core.sync_service:run:62 - 开始处理:天津富麦
+2026-08-17 16:52:22.418 | INFO     | core.sync_service:run:62 - 开始处理:迪青
+2026-08-17 16:52:22.518 | INFO     | core.sync_service:run:62 - 开始处理:义岭
+2026-08-17 16:52:22.624 | INFO     | core.sync_service:run:62 - 开始处理:沛能
+2026-08-17 16:52:22.727 | INFO     | core.sync_service:run:62 - 开始处理:现金
+2026-08-17 16:52:22.826 | INFO     | core.sync_service:run:62 - 开始处理:康丽进（银行）
+2026-08-17 16:52:22.930 | INFO     | core.sync_service:run:62 - 开始处理:吴利君
+2026-08-17 16:52:23.031 | INFO     | core.sync_service:run:62 - 开始处理:马蕾
+2026-08-17 16:52:23.138 | INFO     | core.sync_service:run:62 - 开始处理:王建肖
+2026-08-17 16:52:23.236 | INFO     | core.sync_service:run:62 - 开始处理:白秀敏
+2026-08-17 16:52:23.335 | INFO     | core.sync_service:run:62 - 开始处理:雷朝霞
+2026-08-17 16:52:23.450 | INFO     | core.sync_service:run:62 - 开始处理:李冬日
+2026-08-17 16:52:23.548 | INFO     | core.sync_service:run:62 - 开始处理:佟丽
+2026-08-17 16:52:23.647 | INFO     | core.sync_service:run:62 - 开始处理:雷杰
+2026-08-17 16:52:23.747 | INFO     | core.sync_service:run:62 - 开始处理:晟才
+2026-08-17 16:52:23.847 | INFO     | core.sync_service:run:62 - 开始处理:马义岭
+2026-08-17 16:52:23.946 | INFO     | core.sync_service:run:62 - 开始处理:刘勇
+2026-08-17 16:52:24.052 | INFO     | core.sync_service:run:62 - 开始处理:王茜
+2026-08-17 16:52:24.154 | INFO     | core.sync_service:run:62 - 开始处理:李晓东
+2026-08-17 16:52:38.303 | WARNING  | core.sync_service:run:170 - 收入账缺少Sheet:李晓东收入
+2026-08-17 16:52:38.303 | INFO     | core.sync_service:run:62 - 开始处理:刘硕
+2026-08-17 16:52:38.432 | INFO     | core.sync_service:run:247 - 全部同步完成
+2026-08-17 16:52:38.433 | INFO     | __main__:main:37 - 同步完成
+2026-08-17 16:59:48.842 | INFO     | __main__:main:15 - 开始同步
+2026-08-17 17:00:02.153 | INFO     | core.sync_service:run:22 - 发现日记账Sheet数量:40
+2026-08-17 17:00:02.153 | INFO     | core.sync_service:run:25 - 开始处理:各账户余额表
+2026-08-17 17:00:02.230 | WARNING  | core.sync_service:run:30 - 各账户余额表不是有效日记账，跳过
+2026-08-17 17:00:02.230 | INFO     | core.sync_service:run:25 - 开始处理:承兑余额表
+2026-08-17 17:00:02.284 | WARNING  | core.sync_service:run:30 - 承兑余额表不是有效日记账，跳过
+2026-08-17 17:00:02.285 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄招行
+2026-08-17 17:00:07.584 | INFO     | core.sync_service:run:51 - 迈本石家庄招行收入写入:1条
+2026-08-17 17:00:07.778 | INFO     | core.sync_service:run:62 - 迈本石家庄招行支出写入:3条
+2026-08-17 17:00:07.779 | INFO     | core.sync_service:run:25 - 开始处理:迈本交行
+2026-08-17 17:00:08.167 | INFO     | core.sync_service:run:51 - 迈本交行收入写入:1条
+2026-08-17 17:00:08.375 | INFO     | core.sync_service:run:62 - 迈本交行支出写入:3条
+2026-08-17 17:00:08.375 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行
+2026-08-17 17:00:08.445 | INFO     | core.sync_service:run:51 - 迈本建行收入写入:1条
+2026-08-17 17:00:08.453 | INFO     | core.sync_service:run:62 - 迈本建行支出写入:3条
+2026-08-17 17:00:08.454 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行外币户
+2026-08-17 17:00:08.723 | INFO     | core.sync_service:run:51 - 迈本建行外币户收入写入:1条
+2026-08-17 17:00:08.929 | INFO     | core.sync_service:run:62 - 迈本建行外币户支出写入:3条
+2026-08-17 17:00:08.930 | INFO     | core.sync_service:run:25 - 开始处理:迈本招行保证金户
+2026-08-17 17:00:09.037 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-17 17:00:09.037 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-17 17:00:09.037 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄承兑
+2026-08-17 17:00:09.141 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本石家庄承兑收入
+2026-08-17 17:00:09.142 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本石家庄承兑支出
+2026-08-17 17:00:09.142 | INFO     | core.sync_service:run:25 - 开始处理:迈本仪器（交行）
+2026-08-17 17:00:09.256 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-17 17:00:09.256 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-17 17:00:09.256 | INFO     | core.sync_service:run:25 - 开始处理:仪器交行（数币户）
+2026-08-17 17:00:09.360 | INFO     | core.sync_service:run:25 - 开始处理:仪器承兑
+2026-08-17 17:00:09.466 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:仪器承兑收入
+2026-08-17 17:00:09.467 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:仪器承兑支出
+2026-08-17 17:00:09.467 | INFO     | core.sync_service:run:25 - 开始处理:北威
+2026-08-17 17:00:09.549 | WARNING  | core.sync_service:run:30 - 北威不是有效日记账，跳过
+2026-08-17 17:00:09.549 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都
+2026-08-17 17:00:09.656 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都收入
+2026-08-17 17:00:09.656 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都支出
+2026-08-17 17:00:09.656 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都承兑
+2026-08-17 17:00:09.758 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-17 17:00:09.758 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-17 17:00:09.758 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳
+2026-08-17 17:00:09.863 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-17 17:00:09.863 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-17 17:00:09.863 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳承兑
+2026-08-17 17:00:09.986 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-17 17:00:09.986 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-17 17:00:09.986 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州
+2026-08-17 17:00:10.095 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州收入
+2026-08-17 17:00:10.095 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州支出
+2026-08-17 17:00:10.096 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州承兑
+2026-08-17 17:00:10.208 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州承兑收入
+2026-08-17 17:00:10.209 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州承兑支出
+2026-08-17 17:00:10.209 | INFO     | core.sync_service:run:25 - 开始处理:长春奥强
+2026-08-17 17:00:10.324 | INFO     | core.sync_service:run:25 - 开始处理:苏州澳强
+2026-08-17 17:00:10.436 | INFO     | core.sync_service:run:25 - 开始处理:天津富麦
+2026-08-17 17:00:10.537 | INFO     | core.sync_service:run:25 - 开始处理:迪青
+2026-08-17 17:00:10.637 | INFO     | core.sync_service:run:25 - 开始处理:义岭
+2026-08-17 17:00:10.737 | INFO     | core.sync_service:run:25 - 开始处理:沛能
+2026-08-17 17:00:10.840 | INFO     | core.sync_service:run:25 - 开始处理:现金
+2026-08-17 17:00:10.940 | INFO     | core.sync_service:run:25 - 开始处理:康丽进（银行）
+2026-08-17 17:00:11.039 | INFO     | core.sync_service:run:25 - 开始处理:吴利君
+2026-08-17 17:00:11.143 | INFO     | core.sync_service:run:25 - 开始处理:马蕾
+2026-08-17 17:00:11.245 | INFO     | core.sync_service:run:25 - 开始处理:王建肖
+2026-08-17 17:00:11.344 | INFO     | core.sync_service:run:25 - 开始处理:白秀敏
+2026-08-17 17:00:11.449 | INFO     | core.sync_service:run:25 - 开始处理:雷朝霞
+2026-08-17 17:00:11.552 | INFO     | core.sync_service:run:25 - 开始处理:李冬日
+2026-08-17 17:00:11.658 | INFO     | core.sync_service:run:25 - 开始处理:佟丽
+2026-08-17 17:00:11.764 | INFO     | core.sync_service:run:25 - 开始处理:雷杰
+2026-08-17 17:00:11.869 | INFO     | core.sync_service:run:25 - 开始处理:晟才
+2026-08-17 17:00:11.976 | INFO     | core.sync_service:run:25 - 开始处理:马义岭
+2026-08-17 17:00:12.073 | INFO     | core.sync_service:run:25 - 开始处理:刘勇
+2026-08-17 17:00:12.179 | INFO     | core.sync_service:run:25 - 开始处理:王茜
+2026-08-17 17:00:12.276 | INFO     | core.sync_service:run:25 - 开始处理:李晓东
+2026-08-17 17:00:12.376 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:李晓东收入
+2026-08-17 17:00:12.376 | INFO     | core.sync_service:run:25 - 开始处理:刘硕
+2026-08-17 17:00:25.335 | INFO     | core.sync_service:run:71 - 全部同步完成
+2026-08-17 17:00:25.335 | INFO     | __main__:main:37 - 同步完成
+2026-08-17 17:13:27.363 | INFO     | __main__:main:8 - 开始同步现金流量基础表
+2026-08-17 17:13:37.951 | INFO     | core.cashflow_service:run:76 - 现金流量基础表同步完成（月:8）
+2026-08-17 17:13:37.952 | INFO     | __main__:main:22 - 现金流量基础表同步完成
+2026-08-17 17:14:12.908 | INFO     | __main__:main:8 - 开始同步现金流量基础表
+2026-08-17 17:14:21.954 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本石家庄招行
+2026-08-17 17:14:22.045 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本交行
+2026-08-17 17:14:22.104 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本建行
+2026-08-17 17:14:22.200 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本建行外币户
+2026-08-17 17:14:22.280 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本招行保证金户
+2026-08-17 17:14:22.389 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本石家庄承兑
+2026-08-17 17:14:22.479 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本仪器（交行）
+2026-08-17 17:14:22.672 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:仪器承兑
+2026-08-17 17:14:22.869 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本成都
+2026-08-17 17:14:22.980 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本成都承兑
+2026-08-17 17:14:23.063 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本沈阳
+2026-08-17 17:14:23.186 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本沈阳承兑
+2026-08-17 17:14:23.271 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本苏州
+2026-08-17 17:14:23.380 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:迈本苏州承兑
+2026-08-17 17:14:23.473 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:长春奥强
+2026-08-17 17:14:24.086 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:现金
+2026-08-17 17:14:24.166 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:康丽进（银行）
+2026-08-17 17:14:24.276 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:吴利君
+2026-08-17 17:14:24.360 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:马蕾
+2026-08-17 17:14:24.464 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:王建肖
+2026-08-17 17:14:24.542 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:白秀敏
+2026-08-17 17:14:24.653 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:雷朝霞
+2026-08-17 17:14:24.760 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:李冬日
+2026-08-17 17:14:25.222 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:刘勇
+2026-08-17 17:14:25.305 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:王茜
+2026-08-17 17:14:25.416 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:李晓东
+2026-08-17 17:14:25.506 | WARNING  | core.cashflow_service:run:63 - 现金流量基础表缺少Sheet或表头不匹配:刘硕
+2026-08-17 17:14:25.506 | INFO     | core.cashflow_service:run:76 - 现金流量基础表同步完成（月:1）
+2026-08-17 17:14:25.506 | INFO     | __main__:main:22 - 现金流量基础表同步完成
+2026-08-17 17:18:13.954 | INFO     | __main__:main:8 - 开始同步现金流量基础表
+2026-08-17 17:18:19.236 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄招行 写入:4条（月:2）
+2026-08-17 17:18:19.327 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本交行 写入:4条（月:2）
+2026-08-17 17:18:19.390 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行 写入:4条（月:2）
+2026-08-17 17:18:19.484 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行外币户 写入:4条（月:2）
+2026-08-17 17:18:19.680 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄承兑 写入:4条（月:2）
+2026-08-17 17:18:19.771 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本仪器（交行） 写入:4条（月:2）
+2026-08-17 17:18:19.970 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 仪器承兑 写入:4条（月:2）
+2026-08-17 17:18:20.217 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都 写入:4条（月:2）
+2026-08-17 17:18:20.307 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都承兑 写入:4条（月:2）
+2026-08-17 17:18:20.432 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳 写入:4条（月:2）
+2026-08-17 17:18:20.523 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳承兑 写入:4条（月:2）
+2026-08-17 17:18:20.649 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州 写入:4条（月:2）
+2026-08-17 17:18:20.744 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州承兑 写入:4条（月:2）
+2026-08-17 17:18:22.912 | INFO     | core.cashflow_service:run:78 - 现金流量基础表同步完成（月:2）
+2026-08-17 17:18:22.913 | INFO     | __main__:main:23 - 现金流量基础表同步完成
+2026-08-17 17:26:15.189 | INFO     | __main__:main:8 - 开始同步现金流量基础表
+2026-08-17 17:26:21.900 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄招行 写入:4条（月:2）
+2026-08-17 17:26:21.995 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本交行 写入:4条（月:2）
+2026-08-17 17:26:22.056 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行 写入:4条（月:2）
+2026-08-17 17:26:22.151 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行外币户 写入:4条（月:2）
+2026-08-17 17:26:22.346 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄承兑 写入:4条（月:2）
+2026-08-17 17:26:22.438 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本仪器（交行） 写入:4条（月:2）
+2026-08-17 17:26:22.641 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 仪器承兑 写入:4条（月:2）
+2026-08-17 17:26:22.871 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都 写入:4条（月:2）
+2026-08-17 17:26:23.004 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都承兑 写入:4条（月:2）
+2026-08-17 17:26:23.151 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳 写入:4条（月:2）
+2026-08-17 17:26:23.242 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳承兑 写入:4条（月:2）
+2026-08-17 17:26:23.363 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州 写入:4条（月:2）
+2026-08-17 17:26:23.451 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州承兑 写入:4条（月:2）
+2026-08-17 17:26:25.668 | INFO     | core.cashflow_service:run:78 - 现金流量基础表同步完成（月:2）
+2026-08-17 17:26:25.668 | INFO     | __main__:main:23 - 现金流量基础表同步完成
+2026-08-17 17:29:37.852 | INFO     | __main__:main:8 - 开始同步现金流量基础表
+2026-08-17 17:29:44.635 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄招行 写入:1条（月:1）
+2026-08-17 17:29:44.718 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本交行 写入:1条（月:1）
+2026-08-17 17:29:44.773 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行 写入:1条（月:1）
+2026-08-17 17:29:44.858 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本建行外币户 写入:1条（月:1）
+2026-08-17 17:29:44.967 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本招行保证金户 写入:1条（月:1）
+2026-08-17 17:29:45.047 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本石家庄承兑 写入:1条（月:1）
+2026-08-17 17:29:45.158 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本仪器（交行） 写入:1条（月:1）
+2026-08-17 17:29:45.350 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 仪器承兑 写入:1条（月:1）
+2026-08-17 17:29:45.537 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都 写入:1条（月:1）
+2026-08-17 17:29:45.641 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本成都承兑 写入:1条（月:1）
+2026-08-17 17:29:45.752 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳 写入:1条（月:1）
+2026-08-17 17:29:45.834 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本沈阳承兑 写入:1条（月:1）
+2026-08-17 17:29:45.945 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州 写入:1条（月:1）
+2026-08-17 17:29:46.032 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 迈本苏州承兑 写入:1条（月:1）
+2026-08-17 17:29:46.140 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 长春奥强 写入:1条（月:1）
+2026-08-17 17:29:46.738 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 现金 写入:1条（月:1）
+2026-08-17 17:29:46.844 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 康丽进（银行） 写入:1条（月:1）
+2026-08-17 17:29:46.922 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 吴利君 写入:1条（月:1）
+2026-08-17 17:29:47.034 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 马蕾 写入:1条（月:1）
+2026-08-17 17:29:47.137 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 王建肖 写入:1条（月:1）
+2026-08-17 17:29:47.216 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 白秀敏 写入:1条（月:1）
+2026-08-17 17:29:47.328 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 雷朝霞 写入:1条（月:1）
+2026-08-17 17:29:47.432 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 李冬日 写入:1条（月:1）
+2026-08-17 17:29:47.906 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 刘勇 写入:1条（月:1）
+2026-08-17 17:29:47.985 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 王茜 写入:1条（月:1）
+2026-08-17 17:29:48.091 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 李晓东 写入:1条（月:1）
+2026-08-17 17:29:48.174 | INFO     | core.cashflow_service:run:71 - 现金流量基础表 刘硕 写入:1条（月:1）
+2026-08-17 17:29:48.197 | INFO     | core.cashflow_service:run:78 - 现金流量基础表同步完成（月:1）
+2026-08-17 17:29:48.197 | INFO     | __main__:main:23 - 现金流量基础表同步完成
+2026-08-17 17:30:27.933 | INFO     | __main__:main:15 - 开始同步
+2026-08-17 17:30:41.491 | INFO     | core.sync_service:run:22 - 发现日记账Sheet数量:40
+2026-08-17 17:30:41.492 | INFO     | core.sync_service:run:25 - 开始处理:各账户余额表
+2026-08-17 17:30:41.544 | WARNING  | core.sync_service:run:30 - 各账户余额表不是有效日记账，跳过
+2026-08-17 17:30:41.545 | INFO     | core.sync_service:run:25 - 开始处理:承兑余额表
+2026-08-17 17:30:41.597 | WARNING  | core.sync_service:run:30 - 承兑余额表不是有效日记账，跳过
+2026-08-17 17:30:41.597 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄招行
+2026-08-17 17:30:46.755 | INFO     | core.sync_service:run:51 - 迈本石家庄招行收入写入:1条
+2026-08-17 17:30:46.957 | INFO     | core.sync_service:run:62 - 迈本石家庄招行支出写入:3条
+2026-08-17 17:30:46.957 | INFO     | core.sync_service:run:25 - 开始处理:迈本交行
+2026-08-17 17:30:47.302 | INFO     | core.sync_service:run:51 - 迈本交行收入写入:1条
+2026-08-17 17:30:47.525 | INFO     | core.sync_service:run:62 - 迈本交行支出写入:3条
+2026-08-17 17:30:47.525 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行
+2026-08-17 17:30:47.598 | INFO     | core.sync_service:run:51 - 迈本建行收入写入:1条
+2026-08-17 17:30:47.609 | INFO     | core.sync_service:run:62 - 迈本建行支出写入:3条
+2026-08-17 17:30:47.609 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行外币户
+2026-08-17 17:30:48.866 | INFO     | core.sync_service:run:51 - 迈本建行外币户收入写入:1条
+2026-08-17 17:30:49.086 | INFO     | core.sync_service:run:62 - 迈本建行外币户支出写入:3条
+2026-08-17 17:30:49.086 | INFO     | core.sync_service:run:25 - 开始处理:迈本招行保证金户
+2026-08-17 17:30:49.198 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-17 17:30:49.198 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-17 17:30:49.199 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄承兑
+2026-08-17 17:30:49.310 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本石家庄承兑收入
+2026-08-17 17:30:49.311 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本石家庄承兑支出
+2026-08-17 17:30:49.311 | INFO     | core.sync_service:run:25 - 开始处理:迈本仪器（交行）
+2026-08-17 17:30:49.425 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-17 17:30:49.425 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-17 17:30:49.425 | INFO     | core.sync_service:run:25 - 开始处理:仪器交行（数币户）
+2026-08-17 17:30:49.528 | INFO     | core.sync_service:run:25 - 开始处理:仪器承兑
+2026-08-17 17:30:49.660 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:仪器承兑收入
+2026-08-17 17:30:49.660 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:仪器承兑支出
+2026-08-17 17:30:49.660 | INFO     | core.sync_service:run:25 - 开始处理:北威
+2026-08-17 17:30:49.747 | WARNING  | core.sync_service:run:30 - 北威不是有效日记账，跳过
+2026-08-17 17:30:49.747 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都
+2026-08-17 17:30:49.856 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都收入
+2026-08-17 17:30:49.856 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都支出
+2026-08-17 17:30:49.856 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都承兑
+2026-08-17 17:30:49.958 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-17 17:30:49.958 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-17 17:30:49.958 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳
+2026-08-17 17:30:50.079 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-17 17:30:50.079 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-17 17:30:50.080 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳承兑
+2026-08-17 17:30:50.221 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-17 17:30:50.222 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-17 17:30:50.222 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州
+2026-08-17 17:30:50.339 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州收入
+2026-08-17 17:30:50.339 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州支出
+2026-08-17 17:30:50.339 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州承兑
+2026-08-17 17:30:50.447 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州承兑收入
+2026-08-17 17:30:50.447 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州承兑支出
+2026-08-17 17:30:50.447 | INFO     | core.sync_service:run:25 - 开始处理:长春奥强
+2026-08-17 17:30:50.563 | INFO     | core.sync_service:run:25 - 开始处理:苏州澳强
+2026-08-17 17:30:50.672 | INFO     | core.sync_service:run:25 - 开始处理:天津富麦
+2026-08-17 17:30:50.777 | INFO     | core.sync_service:run:25 - 开始处理:迪青
+2026-08-17 17:30:50.877 | INFO     | core.sync_service:run:25 - 开始处理:义岭
+2026-08-17 17:30:50.986 | INFO     | core.sync_service:run:25 - 开始处理:沛能
+2026-08-17 17:30:51.084 | INFO     | core.sync_service:run:25 - 开始处理:现金
+2026-08-17 17:30:51.197 | INFO     | core.sync_service:run:25 - 开始处理:康丽进（银行）
+2026-08-17 17:30:51.304 | INFO     | core.sync_service:run:25 - 开始处理:吴利君
+2026-08-17 17:30:51.411 | INFO     | core.sync_service:run:25 - 开始处理:马蕾
+2026-08-17 17:30:51.516 | INFO     | core.sync_service:run:25 - 开始处理:王建肖
+2026-08-17 17:30:51.617 | INFO     | core.sync_service:run:25 - 开始处理:白秀敏
+2026-08-17 17:30:51.716 | INFO     | core.sync_service:run:25 - 开始处理:雷朝霞
+2026-08-17 17:30:51.815 | INFO     | core.sync_service:run:25 - 开始处理:李冬日
+2026-08-17 17:30:51.915 | INFO     | core.sync_service:run:25 - 开始处理:佟丽
+2026-08-17 17:30:52.015 | INFO     | core.sync_service:run:25 - 开始处理:雷杰
+2026-08-17 17:30:52.121 | INFO     | core.sync_service:run:25 - 开始处理:晟才
+2026-08-17 17:30:52.224 | INFO     | core.sync_service:run:25 - 开始处理:马义岭
+2026-08-17 17:30:52.331 | INFO     | core.sync_service:run:25 - 开始处理:刘勇
+2026-08-17 17:30:52.434 | INFO     | core.sync_service:run:25 - 开始处理:王茜
+2026-08-17 17:30:52.536 | INFO     | core.sync_service:run:25 - 开始处理:李晓东
+2026-08-17 17:30:52.638 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:李晓东收入
+2026-08-17 17:30:52.638 | INFO     | core.sync_service:run:25 - 开始处理:刘硕
+2026-08-17 17:31:06.034 | INFO     | core.sync_service:run:71 - 全部同步完成
+2026-08-17 17:31:06.035 | INFO     | __main__:main:34 - 同步完成
+2026-08-17 17:37:26.257 | INFO     | __main__:main:15 - 开始同步
+2026-08-17 17:37:39.536 | INFO     | core.sync_service:run:22 - 发现日记账Sheet数量:40
+2026-08-17 17:37:39.537 | INFO     | core.sync_service:run:25 - 开始处理:各账户余额表
+2026-08-17 17:37:39.598 | WARNING  | core.sync_service:run:30 - 各账户余额表不是有效日记账，跳过
+2026-08-17 17:37:39.598 | INFO     | core.sync_service:run:25 - 开始处理:承兑余额表
+2026-08-17 17:37:39.651 | WARNING  | core.sync_service:run:30 - 承兑余额表不是有效日记账，跳过
+2026-08-17 17:37:39.651 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄招行
+2026-08-17 17:37:45.169 | INFO     | core.sync_service:run:51 - 迈本石家庄招行收入写入:1条
+2026-08-17 17:37:45.353 | INFO     | core.sync_service:run:62 - 迈本石家庄招行支出写入:3条
+2026-08-17 17:37:45.353 | INFO     | core.sync_service:run:25 - 开始处理:迈本交行
+2026-08-17 17:37:45.646 | INFO     | core.sync_service:run:51 - 迈本交行收入写入:1条
+2026-08-17 17:37:45.863 | INFO     | core.sync_service:run:62 - 迈本交行支出写入:3条
+2026-08-17 17:37:45.863 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行
+2026-08-17 17:37:45.938 | INFO     | core.sync_service:run:51 - 迈本建行收入写入:1条
+2026-08-17 17:37:45.947 | INFO     | core.sync_service:run:62 - 迈本建行支出写入:3条
+2026-08-17 17:37:45.947 | INFO     | core.sync_service:run:25 - 开始处理:迈本建行外币户
+2026-08-17 17:37:46.235 | INFO     | core.sync_service:run:51 - 迈本建行外币户收入写入:1条
+2026-08-17 17:37:46.456 | INFO     | core.sync_service:run:62 - 迈本建行外币户支出写入:3条
+2026-08-17 17:37:46.456 | INFO     | core.sync_service:run:25 - 开始处理:迈本招行保证金户
+2026-08-17 17:37:46.563 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本招行保证金户收入
+2026-08-17 17:37:46.563 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本招行保证金户支出
+2026-08-17 17:37:46.563 | INFO     | core.sync_service:run:25 - 开始处理:迈本石家庄承兑
+2026-08-17 17:37:46.666 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本石家庄承兑收入
+2026-08-17 17:37:46.666 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本石家庄承兑支出
+2026-08-17 17:37:46.666 | INFO     | core.sync_service:run:25 - 开始处理:迈本仪器（交行）
+2026-08-17 17:37:46.775 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本仪器（交行）收入
+2026-08-17 17:37:46.775 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本仪器（交行）支出
+2026-08-17 17:37:46.775 | INFO     | core.sync_service:run:25 - 开始处理:仪器交行（数币户）
+2026-08-17 17:37:46.877 | INFO     | core.sync_service:run:25 - 开始处理:仪器承兑
+2026-08-17 17:37:46.982 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:仪器承兑收入
+2026-08-17 17:37:46.982 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:仪器承兑支出
+2026-08-17 17:37:46.982 | INFO     | core.sync_service:run:25 - 开始处理:北威
+2026-08-17 17:37:47.065 | WARNING  | core.sync_service:run:30 - 北威不是有效日记账，跳过
+2026-08-17 17:37:47.065 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都
+2026-08-17 17:37:47.171 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都收入
+2026-08-17 17:37:47.171 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都支出
+2026-08-17 17:37:47.172 | INFO     | core.sync_service:run:25 - 开始处理:迈本成都承兑
+2026-08-17 17:37:47.270 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本成都承兑收入
+2026-08-17 17:37:47.270 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本成都承兑支出
+2026-08-17 17:37:47.270 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳
+2026-08-17 17:37:47.373 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳收入
+2026-08-17 17:37:47.373 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳支出
+2026-08-17 17:37:47.373 | INFO     | core.sync_service:run:25 - 开始处理:迈本沈阳承兑
+2026-08-17 17:37:47.479 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本沈阳承兑收入
+2026-08-17 17:37:47.479 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本沈阳承兑支出
+2026-08-17 17:37:47.479 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州
+2026-08-17 17:37:47.582 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州收入
+2026-08-17 17:37:47.582 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州支出
+2026-08-17 17:37:47.582 | INFO     | core.sync_service:run:25 - 开始处理:迈本苏州承兑
+2026-08-17 17:37:47.680 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:迈本苏州承兑收入
+2026-08-17 17:37:47.681 | WARNING  | core.sync_service:run:60 - 支出账缺少Sheet:迈本苏州承兑支出
+2026-08-17 17:37:47.681 | INFO     | core.sync_service:run:25 - 开始处理:长春奥强
+2026-08-17 17:37:47.787 | INFO     | core.sync_service:run:25 - 开始处理:苏州澳强
+2026-08-17 17:37:47.891 | INFO     | core.sync_service:run:25 - 开始处理:天津富麦
+2026-08-17 17:37:47.990 | INFO     | core.sync_service:run:25 - 开始处理:迪青
+2026-08-17 17:37:48.092 | INFO     | core.sync_service:run:25 - 开始处理:义岭
+2026-08-17 17:37:48.191 | INFO     | core.sync_service:run:25 - 开始处理:沛能
+2026-08-17 17:37:48.289 | INFO     | core.sync_service:run:25 - 开始处理:现金
+2026-08-17 17:37:48.392 | INFO     | core.sync_service:run:25 - 开始处理:康丽进（银行）
+2026-08-17 17:37:48.494 | INFO     | core.sync_service:run:25 - 开始处理:吴利君
+2026-08-17 17:37:48.594 | INFO     | core.sync_service:run:25 - 开始处理:马蕾
+2026-08-17 17:37:48.694 | INFO     | core.sync_service:run:25 - 开始处理:王建肖
+2026-08-17 17:37:48.796 | INFO     | core.sync_service:run:25 - 开始处理:白秀敏
+2026-08-17 17:37:48.895 | INFO     | core.sync_service:run:25 - 开始处理:雷朝霞
+2026-08-17 17:37:48.997 | INFO     | core.sync_service:run:25 - 开始处理:李冬日
+2026-08-17 17:37:49.108 | INFO     | core.sync_service:run:25 - 开始处理:佟丽
+2026-08-17 17:37:49.210 | INFO     | core.sync_service:run:25 - 开始处理:雷杰
+2026-08-17 17:37:49.308 | INFO     | core.sync_service:run:25 - 开始处理:晟才
+2026-08-17 17:37:49.409 | INFO     | core.sync_service:run:25 - 开始处理:马义岭
+2026-08-17 17:37:49.509 | INFO     | core.sync_service:run:25 - 开始处理:刘勇
+2026-08-17 17:37:49.609 | INFO     | core.sync_service:run:25 - 开始处理:王茜
+2026-08-17 17:37:49.707 | INFO     | core.sync_service:run:25 - 开始处理:李晓东
+2026-08-17 17:37:49.806 | WARNING  | core.sync_service:run:49 - 收入账缺少Sheet:李晓东收入
+2026-08-17 17:37:49.806 | INFO     | core.sync_service:run:25 - 开始处理:刘硕
+2026-08-17 17:38:02.511 | INFO     | core.sync_service:run:71 - 全部同步完成
+2026-08-17 17:38:02.511 | INFO     | __main__:main:34 - 同步完成

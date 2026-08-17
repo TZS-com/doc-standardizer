@@ -33,6 +33,15 @@ OUTPUT_INCOME = OUTPUT_DIR / "收入账_同步.xlsx"
 OUTPUT_EXPENSE = OUTPUT_DIR / "支出账_同步.xlsx"
 
 
+# 现金流量基础表
+
+CASHFLOW_FILE = DATA_DIR / "现金流量基础表.xlsx"
+
+
+# 现金流量基础表的数据 Sheet；日记账 Sheet 名写入该表的“单位名称”列。
+CASHFLOW_SHEET = "Sheet1"
+
+
 
 # 表头位置
 

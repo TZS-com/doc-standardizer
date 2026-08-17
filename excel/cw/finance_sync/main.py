@@ -16,7 +16,6 @@ def main():
         "开始同步"
     )
 
-
     service = SyncService(
 
         JOURNAL_FILE,
@@ -31,8 +30,6 @@ def main():
 
 
     service.run()
-
-
 
     logger.info(
         "同步完成"
