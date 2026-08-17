@@ -47,6 +47,9 @@ class ArticleTableStyleApplierTest {
                         .findFirst().orElseThrow().getStyle());
                 assertEquals("table-header", document.getTables().get(1).getRow(0).getCell(0).getParagraphArray(0).getStyle());
                 assertEquals("table-body", document.getTables().get(1).getRow(1).getCell(0).getParagraphArray(0).getStyle());
+                assertEquals("CompanyStandardTable", document.getTables().get(1).getStyleID());
+                assertEquals("on", document.getTables().get(1).getCTTbl().getTblPr().getTblLook().getFirstRow().toString());
+                assertEquals(1, document.getTables().get(1).getRow(0).getCtRow().getTrPr().getTblHeaderList().size());
             }
         } finally {
             Files.deleteIfExists(input.toPath());

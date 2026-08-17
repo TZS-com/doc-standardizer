@@ -106,9 +106,13 @@ public class DocumentProcessor {
         }
     }
 
-    /** Final document phase: use the template's placeholders in header/footer and include Heading 3 in the TOC. */
+    /** Final document phase: apply template header/footer while preserving the existing TOC and enabling field refresh. */
     public void applyTemplateHeaderFooterAndTocTo(File input, File outputFile) throws Exception {
         new TemplateHeaderFooterAndTocApplier().applyToCopy(templateFile, input, outputFile);
+    }
+
+    public void applyTemplateHeaderFooterAndTocTo(File input, File outputFile, String sourceFileName) throws Exception {
+        new TemplateHeaderFooterAndTocApplier().applyToCopy(templateFile, input, outputFile, sourceFileName);
     }
 
     /** Applies the template's cover typography and its first two cover-table style patterns. */

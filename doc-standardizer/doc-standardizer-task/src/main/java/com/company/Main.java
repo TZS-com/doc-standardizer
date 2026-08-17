@@ -67,7 +67,7 @@ public class Main {
             Path headerFooter = workDirectory.resolve("2-header-footer.docx");
             Path cover = workDirectory.resolve("3-cover.docx");
             processor.standardizeHeadingAndBodyTo(input.toFile(), headings.toFile());
-            processor.applyTemplateHeaderFooterAndTocTo(headings.toFile(), headerFooter.toFile());
+            processor.applyTemplateHeaderFooterAndTocTo(headings.toFile(), headerFooter.toFile(), input.getFileName().toString());
             processor.applyCoverStylesTo(headerFooter.toFile(), cover.toFile());
             processor.applyArticleTableStylesTo(cover.toFile(), output.toFile());
         } finally {

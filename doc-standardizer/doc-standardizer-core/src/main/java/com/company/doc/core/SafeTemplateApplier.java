@@ -12,11 +12,15 @@ import java.nio.file.Files;
 import java.nio.file.StandardCopyOption;
 import java.util.Enumeration;
 import java.util.HashMap;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
 import java.math.BigInteger;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipFile;
 import java.util.zip.ZipOutputStream;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import com.company.doc.common.model.DocumentModel;
 import com.company.doc.common.model.ParagraphNode;
@@ -29,14 +33,16 @@ public class SafeTemplateApplier {
     private static final String STYLES = "word/styles.xml";
     private static final String NUMBERING = "word/numbering.xml";
     private static final String THEME = "word/theme/theme1.xml";
+    private static final Pattern WORD_STYLE = Pattern.compile(
+            "(?s)<w:style\\b(?=[^>]*\\bw:styleId=\"([^\"]+)\")[^>]*>.*?</w:style>");
 
     public void replaceStyleLibrary(File templateFile, File testFile, File outputFile) throws Exception {
         if (testFile.getCanonicalFile().equals(outputFile.getCanonicalFile())) {
             throw new IllegalArgumentException("The output must be a separate copy.");
         }
         Map<String, byte[]> replacements = new HashMap<>();
-        try (ZipFile template = new ZipFile(templateFile)) {
-            copyPart(template, STYLES, replacements, true);
+        try (ZipFile template = new ZipFile(templateFile); ZipFile source = new ZipFile(testFile)) {
+            replacements.put(STYLES, mergeTemplateStylesWithSourceTocStyles(template, source));
             copyPart(template, NUMBERING, replacements, false);
             copyPart(template, THEME, replacements, false);
         }
@@ -75,7 +81,7 @@ public class SafeTemplateApplier {
             ListContext lists = new ListContext();
             for (int index = 0; index < limit; index++) {
                 ParagraphNode node = model.getParagraphs().get(index);
-                if (!"BODY".equals(node.getLocation()) || node.getRole() == null) continue;
+                if (!"BODY".equals(node.getLocation())) continue;
                 XWPFParagraph paragraph = document.getParagraphArray(index);
                 if (isTableOfContents(paragraph) || isTocStyle(node)) continue;
                 if (isOrdinaryList(node)) {
@@ -84,18 +90,22 @@ public class SafeTemplateApplier {
                     if (listStyle == null) continue;
                     clearDirectFormatting(paragraph);
                     paragraph.setStyle(listStyle.getStyleId());
-                    if (!node.isBulletNumbering() && depth == 0 && lists.needsOrderedRestart()) {
+                    if (!node.isBulletNumbering() && lists.needsOrderedRestart(node)) {
                         restartOrderedList(paragraph, document, listStyle);
                     }
                     lists.accept(node, depth, node.isBulletNumbering());
                     continue;
                 }
+                // A non-list body paragraph ends the current list sequence.
+                // The next ordered list must therefore receive a fresh numbering
+                // instance and restart from 1 instead of continuing this list.
+                lists.resetAtNonList();
+                if (node.getRole() == null) continue;
                 TemplateStyle style = templateStyleForRole(template, node.getRole());
                 if (style == null) continue;
                 clearDirectFormatting(paragraph);
                 paragraph.setStyle(style.getStyleId());
                 applyTemplateHeadingNumbering(paragraph, node.getRole());
-                if (headingNumberingLevel(node.getRole()) != null) lists.resetAtHeading();
             }
             try (FileOutputStream output = new FileOutputStream(outputFile)) { document.write(output); }
         }
@@ -124,7 +134,29 @@ public class SafeTemplateApplier {
     }
 
     private boolean isOrdinaryList(ParagraphNode node) {
-        return node.getNumberingLevel() != null && node.getOutlineLevel() == null;
+        // Numbering alone is not enough to identify a list: numbered Heading 1
+        // and Heading 2 nodes belong to the heading tree and must terminate an
+        // adjacent ordered-list sequence (for example, 4.2 质量控制部).
+        return node.getNumberingLevel() != null
+                && node.getOutlineLevel() == null
+                && !hasHeadingStyle(node)
+                && (!isTitleTreeNode(node) || hasListStyle(node));
+    }
+
+    private boolean isTitleTreeNode(ParagraphNode node) {
+        return "TITLE_ONE".equals(node.getRole()) || "TITLE_TWO".equals(node.getRole());
+    }
+
+    private boolean hasHeadingStyle(ParagraphNode node) {
+        String value = ((node.getStyleId() == null ? "" : node.getStyleId()) + " "
+                + (node.getStyleName() == null ? "" : node.getStyleName())).toLowerCase();
+        return value.matches(".*(?:heading|标题|標題)\\s*[1１2２3３].*");
+    }
+
+    private boolean hasListStyle(ParagraphNode node) {
+        String value = ((node.getStyleId() == null ? "" : node.getStyleId()) + " "
+                + (node.getStyleName() == null ? "" : node.getStyleName())).toLowerCase();
+        return value.contains("list") || value.contains("列表");
     }
 
     /** Maps the source list depth to the reviewed list styles in the company template. */
@@ -149,6 +181,15 @@ public class SafeTemplateApplier {
         if (templateNum == null || templateNum.getCTNum().getAbstractNumId() == null) return;
         BigInteger freshNumId = document.getNumbering().addNum(templateNum.getCTNum().getAbstractNumId().getVal());
         if (freshNumId == null) return;
+        // A new numId is normally sufficient, but Word-compatible editors can
+        // still continue a visually adjacent list unless the instance carries
+        // an explicit start override.  Always make the restart unambiguous.
+        org.apache.poi.xwpf.usermodel.XWPFNum freshNum = document.getNumbering().getNum(freshNumId);
+        if (freshNum != null) {
+            org.openxmlformats.schemas.wordprocessingml.x2006.main.CTNumLvl override = freshNum.getCTNum().addNewLvlOverride();
+            override.setIlvl(BigInteger.ZERO);
+            override.addNewStartOverride().setVal(BigInteger.ONE);
+        }
         paragraph.setNumID(freshNumId);
         paragraph.setNumILvl(BigInteger.ZERO);
     }
@@ -159,6 +200,7 @@ public class SafeTemplateApplier {
         private int previousDepth;
         private boolean previousWasList;
         private boolean restartOrdered = true;
+        private boolean restartWhenEnteringChildList;
 
         int depthFor(ParagraphNode node) {
             int sourceLevel = node.getNumberingLevel() == null ? 0 : node.getNumberingLevel();
@@ -168,20 +210,38 @@ public class SafeTemplateApplier {
             return previousDepth;
         }
 
-        boolean needsOrderedRestart() { return restartOrdered; }
+        /**
+         * A return from an item level to its parent (for example, 4.1 → item
+         * 5 → 4.2) starts a new child-list sequence.  Wait until the following
+         * child item to restart, so the parent heading itself keeps its outline
+         * number and the first child of 4.2 becomes 1.
+         */
+        boolean needsOrderedRestart(ParagraphNode node) {
+            int sourceLevel = node.getNumberingLevel() == null ? 0 : node.getNumberingLevel();
+            if (restartOrdered && (!previousWasList || previousSourceLevel == null)) return true;
+            return restartWhenEnteringChildList
+                    && previousSourceLevel != null
+                    && sourceLevel > previousSourceLevel;
+        }
 
         void accept(ParagraphNode node, int depth, boolean bullet) {
-            previousSourceLevel = node.getNumberingLevel() == null ? 0 : node.getNumberingLevel();
+            int sourceLevel = node.getNumberingLevel() == null ? 0 : node.getNumberingLevel();
+            if (!bullet && previousWasList && previousSourceLevel != null) {
+                if (sourceLevel < previousSourceLevel) restartWhenEnteringChildList = true;
+                else if (sourceLevel > previousSourceLevel) restartWhenEnteringChildList = false;
+            }
+            previousSourceLevel = sourceLevel;
             previousDepth = depth;
             previousWasList = true;
             if (!bullet) restartOrdered = false;
         }
 
-        void resetAtHeading() {
+        void resetAtNonList() {
             previousSourceLevel = null;
             previousDepth = 0;
             previousWasList = false;
             restartOrdered = true;
+            restartWhenEnteringChildList = false;
         }
     }
 
@@ -226,5 +286,39 @@ public class SafeTemplateApplier {
             return;
         }
         replacements.put(partName, source.getInputStream(entry).readAllBytes());
+    }
+
+    /** Keeps the source document's TOC style definitions untouched. */
+    private byte[] mergeTemplateStylesWithSourceTocStyles(ZipFile template, ZipFile source) throws Exception {
+        String templateStyles = new String(bytes(template, STYLES, true), java.nio.charset.StandardCharsets.UTF_8);
+        String sourceStyles = new String(bytes(source, STYLES, true), java.nio.charset.StandardCharsets.UTF_8);
+        List<String> tocStyles = new ArrayList<>();
+        List<String> tocStyleIds = new ArrayList<>();
+        Matcher sourceStyle = WORD_STYLE.matcher(sourceStyles);
+        while (sourceStyle.find()) {
+            String styleId = sourceStyle.group(1);
+            if (!styleId.toLowerCase().startsWith("toc")) continue;
+            tocStyles.add(sourceStyle.group());
+            tocStyleIds.add(styleId);
+        }
+        for (String styleId : tocStyleIds) {
+            Pattern templateStyle = Pattern.compile(
+                    "(?s)<w:style\\b(?=[^>]*\\bw:styleId=\"" + Pattern.quote(styleId) + "\")[^>]*>.*?</w:style>\\s*");
+            templateStyles = templateStyle.matcher(templateStyles).replaceAll("");
+        }
+        if (tocStyles.isEmpty()) return templateStyles.getBytes(java.nio.charset.StandardCharsets.UTF_8);
+        String sourceTocStyles = String.join("\n", tocStyles) + "\n";
+        if (!templateStyles.contains("</w:styles>")) throw new IllegalArgumentException("Template styles.xml has no closing w:styles element");
+        return templateStyles.replace("</w:styles>", sourceTocStyles + "</w:styles>")
+                .getBytes(java.nio.charset.StandardCharsets.UTF_8);
+    }
+
+    private byte[] bytes(ZipFile source, String partName, boolean required) throws Exception {
+        ZipEntry entry = source.getEntry(partName);
+        if (entry == null) {
+            if (required) throw new IllegalArgumentException("Missing required Word part: " + partName);
+            return null;
+        }
+        return source.getInputStream(entry).readAllBytes();
     }
 }

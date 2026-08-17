@@ -11,6 +11,9 @@ import org.apache.poi.xwpf.usermodel.XWPFRun;
 import org.apache.poi.xwpf.usermodel.XWPFTable;
 import org.apache.poi.xwpf.usermodel.XWPFTableCell;
 import org.apache.poi.xwpf.usermodel.XWPFTableRow;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTblLook;
+import org.openxmlformats.schemas.wordprocessingml.x2006.main.CTTblPr;
+import org.openxmlformats.schemas.officeDocument.x2006.sharedTypes.STOnOff1;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -20,6 +23,7 @@ import java.nio.file.StandardCopyOption;
 
 /** Applies the template's caption, header and body styles to article tables. */
 public class ArticleTableStyleApplier {
+    private static final String COMPANY_STANDARD_TABLE_STYLE = "CompanyStandardTable";
     public void applyToCopy(File templateFile, File sourceFile, File outputFile) throws Exception {
         TemplateDefinition template = new WordTemplateParser().parse(templateFile);
         applyToCopy(template, sourceFile, outputFile);
@@ -85,6 +89,8 @@ public class ArticleTableStyleApplier {
     }
 
     private void applyTable(XWPFTable table, TemplateStyle headerStyle, TemplateStyle bodyStyle) {
+        table.setStyleID(COMPANY_STANDARD_TABLE_STYLE);
+        enableFirstRowFormatting(table);
         for (int rowIndex = 0; rowIndex < table.getRows().size(); rowIndex++) {
             TemplateStyle rowStyle = rowIndex == 0 ? headerStyle : bodyStyle;
             if (rowStyle == null) continue;
@@ -92,6 +98,18 @@ public class ArticleTableStyleApplier {
             for (XWPFTableCell cell : row.getTableCells()) {
                 for (XWPFParagraph paragraph : cell.getParagraphs()) applyStyle(paragraph, rowStyle);
             }
+        }
+    }
+
+    private void enableFirstRowFormatting(XWPFTable table) {
+        CTTblPr properties = table.getCTTbl().getTblPr();
+        CTTblLook look = properties.isSetTblLook() ? properties.getTblLook() : properties.addNewTblLook();
+        look.setFirstRow(STOnOff1.ON);
+        if (table.getNumberOfRows() == 0) return;
+        XWPFTableRow headerRow = table.getRow(0);
+        if (headerRow.getCtRow().getTrPr() == null) headerRow.getCtRow().addNewTrPr();
+        if (headerRow.getCtRow().getTrPr().getTblHeaderList().isEmpty()) {
+            headerRow.getCtRow().getTrPr().addNewTblHeader();
         }
     }
 
